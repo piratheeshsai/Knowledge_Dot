@@ -12,9 +12,11 @@ $profile->show_users_profile($_SESSION['username']);  //calling the show_users p
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>KnowledgeDot</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -94,11 +96,11 @@ $profile->show_users_profile($_SESSION['username']);  //calling the show_users p
 
   <div class="container mt-4 col-md-10 position-relative">
     <h3 style="font-family: 'Catamaran', sans-serif;">Welcome <?php echo $_SESSION['username']; ?>,Lets start quiz</h3>
-  
+<!--   
     <ul class="nav nav-tabs">
     <li class="nav-item">
       <a class="nav-link active " data-toggle="tab" href="#menu1">Home</a>
-    </li>
+    </li> -->
    <!--  <li class="nav-item">
       <a class="nav-link" href="#menu2" data-toggle="tab">Profile</a>
     </li>
@@ -111,7 +113,7 @@ $profile->show_users_profile($_SESSION['username']);  //calling the show_users p
   <!-- tab section ends -->
 
   <!-- tab content start -->
-
+    <div class="container">
    <div class="tab-content">
      <div class="tab-pane active " id="menu1" >
     
@@ -141,7 +143,7 @@ $profile->show_users_profile($_SESSION['username']);  //calling the show_users p
 
       ?>
     </select>
-      <button type="submit" class="btn btn-success mt-3">Start Quiz</button>
+      <button type="submit" class="btn btn-success m-5">Start Quiz</button>
   </form>
   </div>
 </div>
@@ -189,8 +191,10 @@ $profile->show_users_profile($_SESSION['username']);  //calling the show_users p
      
    </div>
               <!-- tab section ends -->
-  </div>            <!-- container closed -->
-
+  </div>
+    </div>            <!-- container closed -->
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
 
