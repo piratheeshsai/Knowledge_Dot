@@ -120,7 +120,7 @@ if (!isset($_SESSION['username'])) {
 			<div class="collapse navbar-collapse" id="navi">
                  <!------Navigation menus starts---->
 				<ul class="nav navbar-nav navbar-right">
-					<li> <a href="">Home</a></li>
+					<li> <a href="">Home piratheesh</a></li>
 					<li> <a href="#myservice_section">Our Service</a></li>
 					<li> <a href="#work">Works</a></li>
 					<li> <a href="#our-members">Team</a></li>
