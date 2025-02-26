@@ -5,19 +5,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Unique Developer</title>
+	<title>Knowledge Dot</title>
 	<!----css file link-->
 	<!-- <link rel="stylesheet" type="text/css" href="../..//css/java_programming.css"> -->
 	 
 
 	<!-- Latest compiled and minified CSS
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-	<!-- jQuery library -->
+jQuery library -->
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> --> -->
-
+	 Latest compiled JavaScript -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> --> 
 
 	<!----Linking google fonts-->
 	<!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
@@ -103,14 +101,6 @@
             <li class="nav-item"><a class="nav-link" href="">About</a></li>
             <li class="nav-item"><a class="nav-link" href="">Career</a></li>
             
-
-            <!-- Search Form -->
-            <!-- <li class="nav-item d-none d-sm-inline-block form-inline ml-md-3 my-2 my-md-0 mw-100">
-                <div class="input-group position-relative">
-                    <i class="fas fa-search search-icon"></i>
-                    <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-                </div>
-            </li> -->
 
             <!-- Divider -->
             <div class="topbar-divider d-none d-sm-block"></div>

@@ -6,31 +6,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Unique Developer</title>
-	<!----css file link-->
-	<link rel="stylesheet" type="text/css" href="css/programming.css">
+<title>Knowledge Dot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/admin.css"> 
+	</head>
 
-
-
-
-
-
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-	<!----Linking google fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-
-	<!----font-awsome start-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<style type="text/css">
+	<!-- <style type="text/css">
 		.context-dark, .bg-gray-dark, .bg-primary {
     color: rgba(255, 255, 255, 0.8);
 }
@@ -94,108 +86,65 @@ ul, ol {
 }
 
 
-	</style>
+	</style> -->
 
 
 
-</head>
+
 <body>
 
+	  <!-- Custom Navbar -->
 
-			<!---Navigation Starts	----->
+	  <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+    <a class="navbar-brand" href="#">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Unique Developer</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-	
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<!------Responsive Button---->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="../../index.php">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Our Service</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Career</a></li>
+            
 
+            <!-- Divider -->
+            <div class="topbar-divider d-none d-sm-block"></div>
 
-				</button>
-
-				<h1 style="color: white;margin-top: 10px;" id="myhead">Unique Developer</h1>
-			</div>
-			<div class="collapse navbar-collapse" id="navi">
-                 <!------Navigation menus starts---->
-				<ul class="nav navbar-nav navbar-right">
-					<li> <a href="index.php">Home</a></li>
-					<li> <a href="">Our Service</a></li>
-					<li> <a href="">Works</a></li>
-					<li> <a href="">Team</a></li>
-					<li> <a href="">About</a></li>
-					<li> <a href="">Carrier</a></li>
-					<li> <a href="" id="our-location" class="btn-success" ><?php echo $_SESSION['username']; ?></a></li>
-				</ul>
-	                 <!------Navigation menus ends---->
-			</div>
-		</div>
-	</nav>
-			<!---Navigation Ends	----->
-
-			<!---Login Start------->
-
-			<!-- <div class="modal fade modal-dialog-centered" id="mymodal">
-				<div class="modal-dialog ">
-					<div class="modal-content">
-						<h3 id="login-heading">Login</h3>
-						
-					<div class="modal-body" >
-						<div class="left-box">
-						<form method="POST" enctype="multipart/form-data" action="imgdemo.php">
-							<div class="form-group">
-								<label><i class="fa fa-user fa-2x"></i>Language Name :</label>
-								<input type="text" name="languagename" class="form-control">
+            <!-- User Information Dropdown -->
+            <li class="nav-item dropdown no-arrow">
+                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['username']; ?></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                    <a class="dropdown-item" href="#">
+                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> Profile
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i> Settings
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../login.php">
+                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
 
 
-								<label><i class="fa fa-lock fa-2x"></i>Language Description  :</label>
-								<input type="text" name="languagedesc" class="form-control">
-
-								<label><i class="fa fa-lock fa-2x"></i>Language Image :</label>
-								<input type="file" name="languageimg" class="form-control">
-
-								<button id="btn-login" type="submit">Add Course</button>
-								
-							</div>
-							<div class="register">
-								<h2>Don't have an account?&nbsp<span id="create-account"><a href="signup.html">Create</span></a> </h2>
-							</div>
-							
-						</form>
-					</div>
-					<div class="right-box">
-						<span class="signinwith">Sign in With <br> Social Networks</span>
-
-						<button class="social facebook">Log in with Facebook</button>
-						<button class="social twitter">Log in with twitter</button>
-						<button class="social google">Log in with gmail</button>
-					</div>
-						
-					</div>
-					
-						
-				</div>
-			</div>
-		</div>
- -->
-         <!---Login Ends------->
-
-
-
-
-
-<!-- 
-<div>
-	<img src="C:\Users\sunil\Pictures\wallpaper\be_all.jpg">
-</div> -->
-
-
-<div class="container-fluid  div1">
-		
-	</div>
+<!-- Banner Section -->
+<div class="container-fluid mt-5 py-5 text-center bg-light">
+    <h1 class="display-4">Welcome to Knowledge Dot</h1>
+</div>
 
 
 
@@ -217,45 +166,42 @@ ul, ol {
 <br>
 
  					
+<div class="container">
+    <div class="row d-flex flex-row flex-nowrap overflow-auto">
+        <?php
+        $con = mysqli_connect('localhost', 'root');
+        mysqli_select_db($con, 'uniquedeveloper');
 
-<?php
+        $q = "SELECT * FROM programming_languages";
+        $query = mysqli_query($con, $q);
 
-
-			   // session_start();
-
-			   $con=mysqli_connect('localhost','root');
-
-
-			mysqli_select_db($con,'uniquedeveloper');
-
-			$q="select * from programming_languages";
-			$query=mysqli_query($con,$q);
-			while ($res=mysqli_fetch_array($query)) {
-
-			?>
-
-			<div class="col-md-4 col-sm-6 col-xs-12 content-border" style="margin-bottom: 10px;">
- 								<div class="latest-news-wrap">
- 									<div class="news-img">
- 										<img src=<?php echo $res['language_image']; ?> class="img-responsive">
- 										<div class="deat">
- 											<span><?php echo $res['language_name']; ?></span>
- 										</div>
- 									</div>
-
- 									<div class="news-content">
- 										<p>
- 											<?php echo $res['language_description']; ?>
- 										</p><br>
- 										<a href="programming/java/java_programming.php?course_name=<?php echo $res['language_name'] ?>">Start Reading...</a>
- 									</div>
- 								</div>
- 							</div>
-
-		
-
-<?php } ?>
-
+        while ($res = mysqli_fetch_array($query)) {
+        ?>
+            <div class="col-12 col-md-4 col-sm-6 mb-4 flex-shrink-0" style="width: 18rem;">
+                <div class="card shadow h-100 py-2 stat-card stat-card-primary">
+                    <div class="card-body">
+                        <div class="news-img text-center">
+                            <img src="<?php echo $res['language_image']; ?>" class="img-fluid" style="max-height: 150px; object-fit: cover; border-radius: 10px;">
+                        </div>
+                        <div class="text-center mt-3">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                <?php echo $res['language_name']; ?>
+                            </div>
+                        </div>
+                        <div class="text-gray-800 text-center">
+                            <p><?php echo $res['language_description']; ?></p>
+                        </div>
+                        <div class="text-center">
+                            <a href="programming/java/java_programming.php?course_name=<?php echo $res['language_name'] ?>" class="btn btn-primary btn-sm">
+                                Start Reading...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <?php } ?>
+    </div>
+</div>
 
 
  				</div>
@@ -322,4 +268,6 @@ ul, ol {
 
 			
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 </html>
