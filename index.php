@@ -146,7 +146,6 @@ if (!isset($_SESSION['username'])) {
 						</div>
 						<br>
 						<div class="text">      <!-- jquery typed effect -->
-							
 						</div>
 							<div class="cta-div">
 								<a href="" class="btn1">CONTACT US</a>
