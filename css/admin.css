@@ -341,3 +341,14 @@ body {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
 }
+
+.card-header {
+  background: linear-gradient(45deg, #4e73df, #224abe);
+}
+.ck-editor__editable {
+  min-height: 300px;
+  border-radius: 0 0 0.35rem 0.35rem;
+}
+.form-control:read-only {
+  background-color: #f8f9fa;
+}
