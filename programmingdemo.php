@@ -17,6 +17,9 @@
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
     
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/admin.css"> 
@@ -98,7 +101,7 @@ ul, ol {
 	  <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
     <a class="navbar-brand" href="#">
         <i class="fas fa-graduation-cap"></i>
-        <span>Unique Developer</span>
+        <span>Knowledge Dot</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -142,28 +145,44 @@ ul, ol {
 
 
 <!-- Banner Section -->
-<div class="container-fluid mt-5 py-5 text-center bg-light">
-    <h1 class="display-4">Welcome to Knowledge Dot</h1>
+<div class="container-fluid mt-0 py-5 text-center bg-dark text-white">
+    <h1 class="display-4" style="font-family: 'Poppins', sans-serif; font-weight: 700; font-style: italic;">
+        Welcome to Knowledge Dot
+    </h1>
 </div>
 
 
 
- 			<!---programming languages Section Start	----->
-<br><br><br><br><br>
- 			<section class="latest-news-area" id="latest">
- 				<div class="container">
- 					<div class="row">
- 						<div class="col-xs-12">
- 							<div class="section-title text-center">
- 								<h2><b>PROGRAMMING LANGUAGES</b></h2>
- 								<div class="sub-heading">
- 									Following are the available programming languages <br>
- 									Start learning today
- 								</div>
- 							</div>
- 						</div>
- 					</div>
-<br>
+
+
+<!-- Programming Languages Section Start -->
+<section class="programming-languages py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold text-uppercase text-primary">Programming Languages</h2>
+            <p class="text-muted fs-5">
+                Explore the world of programming with our available languages. <br>
+                Start learning today and enhance your coding skills!
+            </p>
+            <div class="divider mx-auto"></div>
+        </div>
+    </div>
+</section>
+
+<style>
+/* Section Styling */
+.programming-languages {
+    background-color: #f8f9fa;
+}
+
+.divider {
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    margin-top: 10px;
+}
+</style>
+
 
  <!-- Programming Languages -->					
 <div class="container">
