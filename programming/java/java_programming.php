@@ -81,8 +81,12 @@ jQuery library -->
 </head>
 <body>
 	  <!-- Custom Navbar -->
+<<<<<<< HEAD
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+=======
 
 	  <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+>>>>>>> 46932b56ee64e32c6a9e04afc695aebbd03ef5fb
     <a class="navbar-brand" href="#">
         <i class="fas fa-graduation-cap"></i>
         <span>Unique Developer</span>

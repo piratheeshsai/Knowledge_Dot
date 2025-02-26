@@ -302,3 +302,41 @@ body {
   background-color: #e02d1b;
   border-color: #d52a1a;
 }
+.card-hover {
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 0.75rem;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.tab-content {
+  background: transparent;
+}
+
+.nav-tabs {
+  border-bottom: 2px solid #dee2e6;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  font-weight: 500;
+  color: #6c757d;
+  padding: 1rem 2rem;
+}
+
+.nav-tabs .nav-link.active {
+  color: #007bff;
+  border-bottom: 3px solid #007bff;
+  background: transparent;
+}
+
+.course-image {
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
