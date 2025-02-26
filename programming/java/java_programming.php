@@ -8,28 +8,41 @@
 	<title>Unique Developer</title>
 	<!----css file link-->
 	<!-- <link rel="stylesheet" type="text/css" href="../..//css/java_programming.css"> -->
+	 
 
-	<!-- Latest compiled and minified CSS -->
+	<!-- Latest compiled and minified CSS
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> --> -->
 
 
 	<!----Linking google fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">  -->
 
 	<!----font-awsome start-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
-	<link rel="stylesheet" type="text/css" href="css/admin.css">
+	 <!-- Bootstrap 4 CSS -->
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 
-	<script src="https://apis.google.com/js/platform.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/admin.css"> 
+	<link rel="stylesheet" type="text/css" href="../..//css/admin.css">
+
+
+	<!-- <script src="https://apis.google.com/js/platform.js"></script> -->
 
 
 	<!-- <style type="text/css">
@@ -70,92 +83,86 @@
 </head>
 <body>
 	  <!-- Custom Navbar -->
+<<<<<<< HEAD
 <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+=======
+
+	  <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+>>>>>>> 46932b56ee64e32c6a9e04afc695aebbd03ef5fb
     <a class="navbar-brand" href="#">
-      <i class="fas fa-graduation-cap"></i>
-      <span>Unique Developer</span>
+        <i class="fas fa-graduation-cap"></i>
+        <span>Unique Developer</span>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <!-- Search Form -->
-        <li class="nav-item d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100">
-          <div class="input-group position-relative">
-            <i class="fas fa-search search-icon"></i>
-            <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-          </div>
-        </li>
-        
-        <!-- Divider -->
-        <div class="topbar-divider d-none d-sm-block"></div>
-    
-       
-        
-        <!-- User Information -->
-        <li class="nav-item dropdown no-arrow">
-          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin User</span>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="../../index.php">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Our Service</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Career</a></li>
             
-          </a>
-          <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-            <a class="dropdown-item" href="#">
-              <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-              Profile
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-              Settings
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="../login.php">
-              <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-              Logout
-            </a>
-          </div>
-        </li>
-      </ul>
+
+            <!-- Search Form -->
+            <!-- <li class="nav-item d-none d-sm-inline-block form-inline ml-md-3 my-2 my-md-0 mw-100">
+                <div class="input-group position-relative">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                </div>
+            </li> -->
+
+            <!-- Divider -->
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+            <!-- User Information Dropdown -->
+            <li class="nav-item dropdown no-arrow">
+                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['username']; ?></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                    <a class="dropdown-item" href="#">
+                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> Profile
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i> Settings
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../login.php">
+                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+                    </a>
+                </div>
+            </li>
+        </ul>
     </div>
-  </nav>
-
-		<!------Navigation bar ends ---->
-<!-- <nav class="navbar navbar-inverse navbar-fixed-top" style="height: 80px;">
-		<div class="container">
-			<div class="navbar-header">
-				<!------Responsive Butt
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-
-
-				</button>
-
-				<h1 style="color: white;margin-top: 10px;" id="myhead">Unique Developer</h1>
-			</div>
-			<div class="collapse navbar-collapse" id="navi">
-                 <!------Navigation menus starts
-				<ul class="nav navbar-nav navbar-right">
-					<li> <a href="../../index.php">Home</a></li>
-					<li> <a href="">Our Service</a></li>
-					<li> <a href="">Works</a></li>
-					<li> <a href="">Team</a></li>
-					<li> <a href="">About</a></li>
-					<li> <a href="">Carrier</a></li>
-					<li> <a href="" id="our-location" class="btn-success" data-target="#mymodal" data-toggle="modal"><?php echo $_SESSION['username'];   ?></a></li>
-				</ul>
-	                 <!------Navigation menus end
-			</div>
-		</div>
-	</nav> -->
+</nav>
 
 	
-		<!------Navigation bar ends ---->
+ <!--Starting of Side bar -->
+ <div class="sidebar" id="sidebarleftmenu">
+    <ul class="sidebar-menu">
+      <li class="active">
+        <a href="#">
+          <i class="fas fa-tachometer-alt"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="manage_courses/manage_courses.php">
+          <i class="fas fa-book"></i>
+          <span>Manage Courses</span>
+        </a>
+      </li>
+    </ul>
+  </div>
 
 
-		 <!------Side bar start---->
+
+
 
 
 	<div class="sidemenu" id="sidebarleftmenu">
@@ -249,4 +256,6 @@ while ($res=mysqli_fetch_array($result)) {
  </script>
 
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 </html>
