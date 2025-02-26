@@ -4,18 +4,15 @@
 <head>
   <title></title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 
-
-<!-- google font -->
- <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../..//css/admin.css">
 
  <style type="text/css">
   
@@ -48,6 +45,11 @@
 
  ?>
 
+<?php
+
+   require("../includes/sidebar.php");    //navigation bar included
+
+ ?>
  <div class="container-fluid" style="margin-top: 50px;" >
       <div class="row">
 <!-- ========================================================================================================================== -->
@@ -57,18 +59,7 @@
 
 
 
-        <div class="col-sm-2 col-md-2 sidebar badge-dark" style="margin:inherit;" id="sidebar" >
-         <ul class="list-group text-white sidebar-list">
-            <li class="list-group-item  bg-dark "><a href="">Welcome Admin</a></li>
-            <li class="list-group-item bg-dark "><a href="manage_courses/manage_courses.php">Manage Courses</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Quize</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Videos</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Comments</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Users</a></li>
-            <li class="list-group-item bg-dark"><a href="">Logout</a></li>
-            <li class="list-group-item bg-dark" style="height: 400px;"></li>
-          </ul>
-        </div>
+        
 
         <!-- sidebar ends -->
 

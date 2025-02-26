@@ -70,7 +70,7 @@
 </head>
 <body>
 	  <!-- Custom Navbar -->
-	  <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
     <a class="navbar-brand" href="#">
       <i class="fas fa-graduation-cap"></i>
       <span>Unique Developer</span>
