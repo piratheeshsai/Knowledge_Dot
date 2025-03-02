@@ -41,12 +41,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <!-- Search Form -->
-        <li class="nav-item d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100">
-          <div class="input-group position-relative">
-            <i class="fas fa-search search-icon"></i>
-            <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-          </div>
-        </li>
+
         
         <!-- Divider -->
         <div class="topbar-divider d-none d-sm-block"></div>
@@ -291,7 +286,7 @@
                 <th>Username</th>
                 <th>Password</th>
                 <th>Email</th>
-                <th>Actions</th>
+             
               </tr>
             </thead>
             <tbody>
@@ -301,14 +296,7 @@
                 <td><?php echo $userdata['username']; ?></td>
                 <td><?php echo $userdata['password']; ?></td>
                 <td><?php echo $userdata['email']; ?></td>
-                <td>
-                  <button class="btn btn-sm btn-info">
-                    <i class="fas fa-edit"></i>
-                  </button>
-                  <button class="btn btn-sm btn-danger">
-                    <i class="fas fa-trash"></i>
-                  </button>
-                </td>
+               
               </tr>
               <?php } ?>
             </tbody>
