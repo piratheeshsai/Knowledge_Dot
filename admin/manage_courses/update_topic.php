@@ -30,7 +30,7 @@
    require("../includes/sidebar.php");    //navigation bar included
 
  ?>
-  <body class="main-content">
+  <div class="main-content">
     <div class="container-fluid mt-5">
         <div class="row justify-content-center">
             <div class="col-md-8">

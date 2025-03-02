@@ -13,13 +13,13 @@
         </a>
       </li>
       <li>
-        <a href="manage_quiz/manage_quiz.php">
+        <a href="../manage_quiz/manage_quiz.php">
           <i class="fas fa-question-circle"></i>
           <span>Manage Quiz</span>
         </a>
       </li>
       <li>
-        <a href="manage_videos/manage_videos.php">
+        <a href=".../manage_videos/manage_videos.php">
           <i class="fas fa-video"></i>
           <span>Manage Videos</span>
         </a>
