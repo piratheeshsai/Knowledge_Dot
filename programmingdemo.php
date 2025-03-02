@@ -118,7 +118,7 @@ ul, ol {
 <section class="programming-languages py-5 bg-light">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold text-uppercase text-primary"><b>Programming Languages</b></h2>
+            <h2 class="fw-bold text-uppercase text-dark"><b>Programming Languages</b></h2>
             <p class="text-muted fs-5">
                 Explore the world of programming with our available languages. <br>
                 Start learning today and enhance your coding skills!
