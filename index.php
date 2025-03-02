@@ -20,7 +20,7 @@ if (!isset($_SESSION['username'])) {
 	<link href="https://fonts.googleapis.com/css?family=Aleo" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-	<title>Unique Developer</title>
+	<title>Knowledge Dot</title>
 	<!----magnific popup css file for work section -->
 	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
 
@@ -58,22 +58,13 @@ if (!isset($_SESSION['username'])) {
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+ 
 	<!----------email notification-------->
-
-
-
-
-
-
 
 <!-- <link rel="stylesheet" href="assets/tether/tether.min.css">
  
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css"> -->
- 
-
-
 
 
 
@@ -115,18 +106,15 @@ if (!isset($_SESSION['username'])) {
 
 				</button>
 
-				<h1 style="color: white;margin-top: 10px;" id="myhead"> Developer</h1>
+				<h1 style="color: white;margin-top: 10px;" id="myhead">Knowledge Dot</h1>
 			</div>
 			<div class="collapse navbar-collapse" id="navi">
                  <!------Navigation menus starts---->
 				<ul class="nav navbar-nav navbar-right">
-					<li> <a href="">Home Denish</a></li>
+					<li> <a href="">Home</a></li>
 					<li> <a href="#myservice_section">Our Service</a></li>
-					<li> <a href="#work">Works</a></li>
 					<li> <a href="#our-members">Team</a></li>
-					<li> <a href="#myfaq">FAQs</a></li>
-					<li> <a href="">Carrier</a></li>
-					<li> <a href="logout.php" id="our-location" class="btn-success" ><?php echo $_SESSION['username'];   ?></a></li>
+					<li> <a href="logout.php" id="our-location" class="btn-success" >Logout</a></li>
 				</ul>
 	                 <!------Navigation menus ends---->
 			</div>
@@ -146,20 +134,13 @@ if (!isset($_SESSION['username'])) {
 						</div>
 						<br>
 						<div class="text">      <!-- jquery typed effect -->
+							
 						</div>
 							<div class="cta-div">
 								<a href="" class="btn1">CONTACT US</a>
 								<a href="#myservice_section" class="btn2">LEARN TODAY</a>
 							</div>
 							<br><br>
-							<div class="social-networks">
-								<a href="https://www.facebook.com/Unique-Developer-282626055790378/?modal=admin_todo_tour" class="fa fa-facebook"></a>
-								<a href="https://twitter.com/SunilYa35862617" class="fa fa-twitter"></a>
-								<a href="https://www.instagram.com/unique_developer" class="fa fa-instagram"></a>
-								<a href="" class="fa fa-reddit"></a>
-								<a href="https://www.linkedin.com/in/sunil-yadav-70b3bb181/" class="fa fa-linkedin"></a>
-								<a href="" class="fa fa-cog"></a>
-							</div>
 					</div>
 				</div>
 			</section>
@@ -218,7 +199,7 @@ if (!isset($_SESSION['username'])) {
          			<div class="section-title text-center">
          				<h2><b>SERVICES</b></h2>
          				<p>
-         					this is our serices theses are the services provided by us <br>this are the services provided by us
+         					This is Our Serices Theses are The Services Provided by Code Worriors
          				</p>
          			</div>
          		</div>
@@ -229,7 +210,7 @@ if (!isset($_SESSION['username'])) {
          				<div class="service-icon">
          					<i class="fa fa-leaf"></i>
          				</div>
-         				<h3><a href="programmingdemo.php">PROGRAMMING</a></h3>
+         				<h3><a href="programmingdemo.php">COURSES</a></h3>
          				<p>
          					Here you will find all the lecture tutorials related to programming languages 
          					like JAVA,PYTHON,ANDROID etc
@@ -242,7 +223,7 @@ if (!isset($_SESSION['username'])) {
          				<div class="service-icon">
          					<i class="fa fa-laptop"></i>
          				</div>
-         				<h3><a href="video tutorials\java\display_video_courses.php">VIDEO TUTORIALS</a></h3>
+         				<h3><a href="video tutorials\java\display_video_courses.php">CLASSES</a></h3>
          				<p>
          					Here you will find all the videos tutorials related to programming languages 
          					like JAVA,PYTHON,ANDROID etc
@@ -255,48 +236,12 @@ if (!isset($_SESSION['username'])) {
          				<div class="service-icon">
          					<i class="fa fa-laptop"></i>
          				</div>
-         				<h3><a href="online_quize/quizhome.php">EXERCISE</a></h3>   <!--  exercise/exercise.php -->
+         				<h3><a href="online_quize/quizhome.php">EXAMS</a></h3>   <!--  exercise/exercise.php -->
          				<p>
          					Here you will find problem programs for practice and their implementation also which will improve your coding skill
          				</p>
          			</div>
          		</div>
-<!-- 
-         		<div class="col-md-4 col-sm-6 col-xs-12">
-         			<div class="service-wrap text-center">
-         				<div class="service-icon">
-         					<i class="fa fa-laptop"></i>
-         				</div>
-         				<h3><a href="">WEB DESIGN</a></h3>
-         				<p>
-         					this is our serices theses are the services provided by us <br>this are the services provided by us
-         				</p>
-         			</div>
-         		</div>
- -->
-         		<!-- <div class="col-md-4 col-sm-6 col-xs-12">
-         			<div class="service-wrap text-center">
-         				<div class="service-icon">
-         					<i class="fa fa-laptop"></i>
-         				</div>
-         				<h3><a href="">COMPUTER SCIENCE</a></h3>
-         				<p>
-         					this is our serices theses are the services provided by us <br>this are the services provided by us
-         				</p>
-         			</div>
-         		</div>
- -->
-         		<!-- <div class="col-md-4 col-sm-6 col-xs-12">
-         			<div class="service-wrap text-center">
-         				<div class="service-icon">
-         					<i class="fa fa-user"></i>
-         				</div>
-         				<h3><a href="">TECH NEWS</a></h3>
-         				<p>
-         					this is our serices theses are the services provided by us <br>this are the services provided by us
-         				</p>
-         			</div>
-         		</div> -->
          	</div>
          </div>
      </div>
@@ -312,249 +257,134 @@ if (!isset($_SESSION['username'])) {
 
 			<!---Our Services Section Ends------->
 
-			<section class="work" id="work"><br>
-				<h2 id="work-heading" class="text-center" style="font-weight: bold;">OUR WORK</h2>
-				<p class="text-center">join us to improve your works join us to improve your works</p>
-				<div class="container-fluid">
-					<!---first row start-->
-					<div class="row no-gutters">
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work1.png" title="this is a sky image">
-								<img src="img/work1.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work2.png" title="this is a sky image">
-								<img src="img/work2.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work3.png" title="this is a sky image">
-								<img src="img/work3.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work4.png" title="this is a sky image">
-								<img src="img/work4.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-
-					
-					<!---first row ends-->
-
-
-					<!-------second row starts  --->
-					
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work5.png" title="this is a sky image">
-								<img src="img/work5.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work6.png" title="this is a sky image">
-								<img src="img/work6.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work7.png" title="this is a sky image">
-								<img src="img/work7.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work8.png" title="this is a sky image">
-								<img src="img/work8.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					
-					
-					<!---second row ends-->
-					
-				</div>
-				
-
-
-			</section>
 
 			<!---Our Services Section Ends------->
-
-			<!-- introduction video section starts -->
-
-		<!-- 	<br><br><br><br>
-
-		<section class="header7 cid-rjrjygOfd1" id="header7-3">
-
-    
-		    <div class="container">
-		        <div class="media-container-row">
-
-		            <div class="media-content align-right">
-		                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1">
-		                    Intro with Video
-		                </h1>
-		                <div class="mbr-section-text mbr-white pb-3">
-		                    <p class="mbr-text mbr-fonts-style display-5">
-		                        Intro with background color, paddings and a video on the right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.
-		                    </p>
-		                </div>
-		                <div class="mbr-section-btn">
-		                        <a class="btn btn-md btn-primary display-4" href="https://mobirise.co">LEARN MORE</a>
-		                        <a class="btn btn-md btn-white-outline display-4" href="https://mobirise.co">LIVE DEMO</a>
-		                </div>
-		            </div>
-
-		            <div class="mbr-figure" style="width: 100%;"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/uNCr7NdOJgw?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
-
-		        </div>
-    	</div>
-		</section> -->
-
-
-  
-
-			<!-- introduction video section ends -->
-
-
-
-
-
 
 
 
 			<!---Our Team Section Start------->
 			<br><br><br>
-			<div class="container text-center" id="our-members">
-				<h2><b>MEMBERS</b></h2>
-				<p>
-					These are our excellent member .you can contact anyone anytime <br> and all are experts and well experience
-				</p>
-			</div>
-
-
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div id="team-memebers" class="owl-carousel owl-theme">
-							<div class="team-member text-center">
-								<img src="img/sunil.jpg" class="img-responsive">
-								<div class="team-member-info text-center">
-									<h4 class="team-member-name">Sunil yadav</h4>
-									<h4 class="team-member-designation">ceo</h4>
-									<ul class="social-list">
-										<li><a href="https://www.facebook.com/profile.php?id=100004910078558" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="https://twitter.com/SunilYa35862617" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-
-
-							<div class="team-member text-center">
-								<img src="img/mangu.png" class="img-responsive">
-								<div class="team-member-info text-center">
-									<h4 class="team-member-name">Mangesh yadav</h4>
-									<h4 class="team-member-designation">Sr. Developer</h4>
-									<ul class="social-list">
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-
-
-							<div class="team-member text-center">
-								<img src="img/deepak.jpg" class="img-responsive">
-								<div class="team-member-info text-center">
-									<h4 class="team-member-name">Deepak yadav</h4>
-									<h4 class="team-member-designation">Jr. Developer</h4>
-									<ul class="social-list">
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-
-
-							<div class="team-member text-center">
-								<img src="img/danish.jpg" class="img-responsive">
-								<div class="team-member-info text-center">
-									<h4 class="team-member-name">Danish Shamsi</h4>
-									<h4 class="team-member-designation">Sr. Developer</h4>
-									<ul class="social-list">
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-
-
-							<div class="team-member text-center">
-								<img src="img/sunil2.jpg" class="img-responsive">
-								<div class="team-member-info text-center">
-									<h4 class="team-member-name">Sunil yadav</h4>
-									<h4 class="team-member-designation">ceo</h4>
-									<ul class="social-list">
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-
-
-
-
-
-
-
-						</div>
-					</div>
-				</div>
-			</div>
-
-
+			
+<div class="responsive-container-block outer-container">
+  <div class="responsive-container-block inner-container">
+    <p class="text-blk section-head-text">
+      Meet Our Expert Team
+    </p>
+    <p class="text-blk section-subhead-text">
+	EEY4189 Software Design in Group
+    </p>
+    <div class="responsive-container-block">
+      <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+        <div class="team-card">
+          <div class="img-wrapper">
+            <img class="team-img" src="img/dichu.png">
+          </div>
+          <p class="text-blk name">
+            Ditharshan Yogarajah
+          </p>
+          <p class="text-blk position">
+		    Team Captain
+          </p>
+          <div class="social-media-links">
+            <a href="https://x.com/Ditharshan_Y?t=ND-IicVuoIj7LSldIz6ArQ&s=08" target="_blank">
+              <img src="img/twitter.png">
+            </a>
+            <a href="https://www.facebook.com/ditharshan.yoga" target="_blank">
+              <img src="img/facebook.png">
+            </a>
+            <a href="https://www.instagram.com/ditharshan_yogarajah/?igsh=MWo3cGlpczJpbnNsbA%3D%3D" target="_blank">
+              <img src="img/insta.png">
+            </a>
+            <a href="https://www.linkedin.com/in/ditharshan-yogarajah-277b95216/ target="_blank">
+              <img src="img/linkedin.png">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+        <div class="team-card">
+          <div class="img-wrapper">
+            <img class="team-img" src="img/santhos.png">
+          </div>
+          <p class="text-blk name">
+            N.Santhos
+          </p>
+          <p class="text-blk position">
+            Team Member
+          </p>
+		  <div class="social-media-links">
+            <a href="http://www.twitter.com/" target="_blank">
+              <img src="img/twitter.png">
+            </a>
+            <a href="http://www.facebook.com/" target="_blank">
+              <img src="img/facebook.png">
+            </a>
+            <a href="http://www.instagram.com/" target="_blank">
+              <img src="img/insta.png">
+            </a>
+            <a href="http://www.gmail.com/" target="_blank">
+              <img src="img/linkedin.png">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+        <div class="team-card">
+          <div class="img-wrapper">
+            <img class="team-img" src="img/denish.png">
+          </div>
+          <p class="text-blk name">
+            N. Denish Dilshan
+          </p>
+          <p class="text-blk position">
+		   Team Member
+          </p>
+          <div class="social-media-links">
+            <a href="http://www.twitter.com/" target="_blank">
+              <img src="img/twitter.png">
+            </a>
+            <a href="http://www.facebook.com/" target="_blank">
+              <img src="img/facebook.png">
+            </a>
+            <a href="http://www.instagram.com/" target="_blank">
+              <img src="img/insta.png">
+            </a>
+            <a href="http://www.gmail.com/" target="_blank">
+              <img src="img/linkedin.png">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+        <div class="team-card">
+          <div class="img-wrapper">
+            <img class="team-img" src="img/pirathees.png">
+          </div>
+          <p class="text-blk name">
+            I. Pirathees
+          </p>
+          <p class="text-blk position">
+		  Team Member
+          </p>
+		  <div class="social-media-links">
+            <a href="http://www.twitter.com/" target="_blank">
+              <img src="img/twitter.png">
+            </a>
+            <a href="http://www.facebook.com/" target="_blank">
+              <img src="img/facebook.png">
+            </a>
+            <a href="http://www.instagram.com/" target="_blank">
+              <img src="img/insta.png">
+            </a>
+            <a href="http://www.gmail.com/" target="_blank">
+              <img src="img/linkedin.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 			<!---Our Team Section Ends------->
 <!-- =============================================================================================================================== -->
@@ -565,98 +395,6 @@ if (!isset($_SESSION['username'])) {
 <!-- =============================================================================================================================== -->
 			<!---FAQs Section Start------->
 
-			<br><br><br>
-			<section class="faq" id="myfaq">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<h2><b>GENERAL FAQs</b></h2>
-							<div class="sub-heading">
-								<p>
-									you can ask the regarding the issues.we will <br>solve that together for sure
-								</p>
-								
-							</div>
-						</div>	
-
-					</div>
-				</div> <br><br><br>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-7">
-							<div class="panel-group" id="accordian">
-
-
-								<?php 
-
-								  $con=mysqli_connect('localhost','root');
-									   if (!$con) {
-									   	die('connection failed'.mysqli_connect_error());
-									   }
-
-									mysqli_select_db($con,'uniquedeveloper');
-
-									$sql="select * from faq";
-									$result=mysqli_query($con,$sql);
-									while ($row=mysqli_fetch_array($result))
-									{
-					?>
-
-								<div class="panel panel-default">
-									<div class="panel-heading" id="headingOne">
-										<h4 class="panel-title">
-											<a href="#<?php echo $row['id']; ?>" data-toggle="collapse" class="collapse" data-parent="#accordian"><?php echo $row['faq_title']; ?></a>
-										</h4>
-									</div>
-									<div id="<?php echo $row['id']; ?>" class="panel-collapse collapse " aria-labelledby="headingOne">
-										<div class="panel-body">
-											<p>
-												<?php echo $row['faq_description']; ?>
-											</p>
-										</div>
-									</div>
-								</div>
-
-							<?php } ?>
-
-
-
-								<div class="panel panel-default">
-									<div class="panel-heading" id="headingTwo">
-										<h4 class="panel-title">
-											<a href="#collapseTwo" class="collapsed" data-toggle="collapse" data-parent="#accordian">How does it works ?</a>
-										</h4>
-									</div>
-									<div id="collapseTwo" class="panel-collapse collapse" aria-labelledby="headingTwo">
-										<div class="panel-body">
-											<p>
-												Unique Developer is an online E-learning website <br>
-												here you can learn programming languages,Tech News and improve your coding skill	
-											</p>
-										</div>
-									</div>
-								</div>
-
-
-
-
-								
-							</div>
-						</div>
-
-						<div class="freeimage" id="meimg">
-							<div class="col-md-2 col-md-offset">
-								<img src="img/faq1.png">
-							</div>
-						</div>
-
-					</div>
-				</div>
-				
-
-			</section>
-
-
 			<!---FAQs Section Ends------->
 
 
@@ -665,32 +403,6 @@ if (!isset($_SESSION['username'])) {
 
 <!------ Include the above in your HEAD tag ---------->
 
-<div class="row text-center">
-	<h2><b>CONTACT US</b></h2><br><br>
-	<center>
-	<div class="card" style="width: 30rem;">
-  <div class="card-body border-info">
-   
-   <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">message</label>
-    <input type="password" class="form-control"  placeholder="enter your message">
-  </div>
-  
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-  </div>
-</div></center>
-</div>
-
-    
-
-
 
 			<!---Contact us Section Ends------->
 
@@ -698,8 +410,37 @@ if (!isset($_SESSION['username'])) {
 
 
  			<!---footer Section Start	----->
-
-
+			 <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#myservice_section">Course</a></li>
+                            <li><a href="#myservice_section">Class</a></li>
+                            <li><a href="#myservice_section">Exams</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Code Warriors</h3>
+                        <p>We are the EEY4189 Software Design in Group Project Team. We Create this systerm for online education
+						</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Code Warriors © 2025</p>
+            </div>
+        </footer>
+    </div>
 
  			<!---footer Section Ends	----->
 
@@ -732,7 +473,7 @@ if (!isset($_SESSION['username'])) {
 <script src="js/jquery.ripples-min.js" type="text/javascript"></script>
 <script src="js/typed.min.js" type="text/javascript"></script>
 <script src="js/main.js" type="text/javascript"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 
 
