@@ -78,7 +78,7 @@ ul, ol {
 .nav-list li a:before {
     content: "\f14f";
     font: 400 21px/1 "Material Design Icons";
-    color: #4d6de6;
+    color:rgb(0, 0, 0);
     display: inline-block;
     vertical-align: baseline;
     margin-left: -28px;
@@ -118,7 +118,7 @@ ul, ol {
 <section class="programming-languages py-5 bg-light">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold text-uppercase text-primary">Programming Languages</h2>
+            <h2 class="fw-bold text-uppercase text-primary"><b>Programming Languages</b></h2>
             <p class="text-muted fs-5">
                 Explore the world of programming with our available languages. <br>
                 Start learning today and enhance your coding skills!
@@ -137,7 +137,7 @@ ul, ol {
 .divider {
     width: 60px;
     height: 4px;
-    background-color: #007bff;
+    background-color:rgb(0, 0, 0);
     margin-top: 10px;
 }
 </style>
