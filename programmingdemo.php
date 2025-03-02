@@ -156,13 +156,13 @@ ul, ol {
         while ($res = mysqli_fetch_array($query)) {
         ?>
             <div class="col-12 col-md-4 col-sm-6 mb-4 flex-shrink-0" style="width: 18rem;">
-                <div class="card shadow h-100 py-2 stat-card stat-card-primary">
+                <div class="card shadow h-100 py-2 stat-card stat-card-dark">
                     <div class="card-body">
                         <div class="news-img text-center">
                             <img src="<?php echo $res['language_image']; ?>" class="img-fluid" style="max-height: 150px; object-fit: cover; border-radius: 10px;">
                         </div>
                         <div class="text-center mt-3">
-                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            <div class="text-xs font-weight-bold text-dark text-uppercase mb-1">
                                 <?php echo $res['language_name']; ?>
                             </div>
                         </div>
@@ -170,7 +170,7 @@ ul, ol {
                             <p><?php echo $res['language_description']; ?></p>
                         </div>
                         <div class="text-center">
-                            <a href="programming/java/java_programming.php?course_name=<?php echo $res['language_name'] ?>" class="btn btn-primary btn-sm">
+                            <a href="programming/java/java_programming.php?course_name=<?php echo $res['language_name'] ?>" class="btn btn-dark btn-sm">
                                 Start Reading...
                             </a>
                         </div>
