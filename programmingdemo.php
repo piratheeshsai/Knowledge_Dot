@@ -20,10 +20,20 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     
+
+    <!----Linking google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <!----font-awsome start-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/admin.css"> 
     <link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+    
 	</head>
 
 	<!-- <style type="text/css">
@@ -97,63 +107,11 @@ ul, ol {
 
 <body>
 
-	  <!-- Custom Navbar -->
-
-	  <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
-    <a class="navbar-brand" href="#">
-        <i class="fas fa-graduation-cap"></i>
-        <span>Knowledge Dot</span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="../../index.php">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Our Service</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Works</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Team</a></li>
-            <li class="nav-item"><a class="nav-link" href="">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Career</a></li>
-            
-
-            <!-- Divider -->
-            <div class="topbar-divider d-none d-sm-block"></div>
-
-            <!-- User Information Dropdown -->
-            <li class="nav-item dropdown no-arrow">
-                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['username']; ?></span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                    <a class="dropdown-item" href="#">
-                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> Profile
-                    </a>
-                    <a class="dropdown-item" href="#">
-                        <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i> Settings
-                    </a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="../login.php">
-                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
-                    </a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-
-<!-- Banner Section -->
-<div class="container-fluid mt-0 py-5 text-center bg-dark text-white">
-    <h1 class="display-4" style="font-family: 'Poppins', sans-serif; font-weight: 700; font-style: italic;">
-        Welcome to Knowledge Dot
-    </h1>
-</div>
-
-
-
+<?php
+ 
+   require("./Frontend_includes/frontend_navbar.php");    //navigation bar included
+ 
+ ?>
 
 
 <!-- Programming Languages Section Start -->
