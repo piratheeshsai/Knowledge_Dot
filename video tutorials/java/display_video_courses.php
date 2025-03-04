@@ -1,3 +1,9 @@
+<?php 
+
+include 'conn.inc.php';
+include "../../admin/includes/navbar.php";
+ ?>
+
 <!DOCTYPE html>
 <html>
 <head>
