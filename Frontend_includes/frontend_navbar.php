@@ -1,153 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="../css/style.css">
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+    <a class="navbar-brand" href="#">
+      <i class="fas fa-graduation-cap"></i>
+      <span>Knowledge Dot</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<style>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <!-- Search Form -->
+       
+        
+        <!-- Divider -->
+        <div class="topbar-divider d-none d-sm-block"></div>
+    
 
-*
-{
-	margin: 0px;
-	padding: 0px;
-}
-
-#loading
-{
-	position: fixed;
-	width: 100%;
-	height: 100vh;
-	background: #fff
-	url('C:/xampp/htdocs/MyResponsiveWebsite/icons/mypreloader.gif')
-	 no-repeat center;	
-	z-index: 99999;
-}
-
-#myhead
-{
-	font-family: 'Lobster', cursive;
-}
-/*=======================================
-       Basic Properties start
-==========================================*/
-
-
-/*=======================================
-       Navigation Properties start
-==========================================*/
-.navbar
-{
-	padding: 18px 0px;
-	 
-	background-color:  #000000 !important;
-	
-	border-bottom: none !important;
-	transition: all 0.5s ease-in-out; 
-	
-
-}
-ul li a
-{
-	color: white !important;
-	font-weight: bold;
-	font-size: 13px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	transition: all 0.5s ease-in;
-}
-
-ul li a:hover
-{
-	color: rgb(0, 0, 0) !important;
-	font-size: 14px ;
-}
-.navbar-toggle
-{
-	border:1px solid white !important;
-	transition: all 0.5s ease-in;
-}
-.navbar-toggle:hover
-{
-	background-color:rgb(0, 0, 0) !important;
-}
-
-#our-location
-{
-	border: 1px solid white ;
-	border-radius: 45px;
-	padding: 12px 12px 12px 12px;
-	
-	background: rgb(0, 0, 0) !important;
-
-}
-#our-location:hover
-{
-	background-color: white !important;
-	
-}
-
-.navbar-inverse
-{
-	background-color: transparent !important;
-}
-
-
-/*=======================================
-       Navigation Properties ends
-==========================================*/
-
-
-/*=======================================
-  Sticky Navigation with background color
-==========================================*/
-
-.secondary
-{
-	background-color:#000000 !important;
-}
-
-
-
-/*=======================================
-      Sticky Navigation Properties ends
-==========================================*/
-
-
-</style>
-
-
-</head>
-
-
-
-
-
-<!---Navigation Starts	----->
-
-            <nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<!------Responsive Button---->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-
-
-				</button>
-
-				<h1 style="color: white;margin-top: 10px;" id="myhead">Knowledge Dot</h1>
-			</div>
-			<div class="collapse navbar-collapse" id="navi">
-                 <!------Navigation menus starts---->
-				<ul class="nav navbar-nav navbar-right">
-					<li> <a href="">Home</a></li>
-					<li> <a href="#myservice_section">Our Service</a></li>
-					<li> <a href="#our-members">Team</a></li>
-					<li> <a href="logout.php" id="our-location" class="btn-success" >Logout</a></li>
-				</ul>
-	                 <!------Navigation menus ends---->
-			</div>
-		</div>
-	</nav>
-			<!---Navigation Ends	----->
-</html>
+        <!-- User Information -->
+        <li class="nav-item dropdown no-arrow">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['username'];   ?></span>
+            
+          </a>
+          <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="#">
+              <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+              Profile
+            </a>
+            <a class="dropdown-item" href="#">
+              <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+              Settings
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../login.php">
+              <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+              Logout
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>

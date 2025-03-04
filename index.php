@@ -205,17 +205,19 @@ if (!isset($_SESSION['username'])) {
          		</div>
          	</div>
          	<div class="row">
+			 <a href="programmingdemo.php">
          		<div class="col-md-4 col-sm-6 col-xs-12">
          			<div class="service-wrap text-center">
          				<div class="service-icon">
          					<i class="fa fa-leaf"></i>
          				</div>
-         				<h3><a href="programmingdemo.php">COURSES</a></h3>
+         				<h3>COURSES</h3>
          				<p>
          					Here you will find all the lecture tutorials related to programming languages 
          					like JAVA,PYTHON,ANDROID etc
          				</p>
          			</div>
+					 </a>
          		</div>
 
          		<div class="col-md-4 col-sm-6 col-xs-12">
