@@ -1,54 +1,39 @@
+
+
 <?php 
-
-include 'conn.inc.php';
-include "../../admin/includes/navbar.php";
+	session_start();
  ?>
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<style type="text/css">
-		
-.card-body
-{
-	 border-style: solid !important;
-	  border-width:1px !important;
-	  border-color: #ccc;
-}
-
-.container
-{
-	margin-top: 1%;
-}
-
-.inner img
-{
-	transition: all 1.5s ease;  /* to rotate image smoothly*/
-	
-}
-.inner:hover img
-{
-	transform:rotate(5deg);      /* to rotate the image 5 deg*/
-	
-}
-
-.div1                           /* for title image*/
-{
-   position: relative;
-    height: 500px;
-    width: 1263px;
-    background:url(online_video_title.png);
-}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 
-	</style>
+  <link rel="stylesheet" type="text/css" href="../..//css/admin.css">
+  
+
 </head>
+
+
+
 <body>
 
-	 <!-- title image start -->
-	<br> <br><br>
-	<div class="container-fluid  div1">
+
+<?php 
+
+include 'conn.inc.php';
+include "../../frontend_includes/frontend_navbar.php";
+ ?>
+
+
+
+	<div class="container-fluid">
 		
 	</div>
 	<!-- title image ends -->
@@ -110,11 +95,25 @@ include "../../admin/includes/navbar.php";
 
 <!-- footer section starts -->
 
-<footer style="margin-top: 90px;">
+
 	 <?php 
  include "../../admin/includes/footer.php";
   ?>
-</footer>
+
+
+
+<?php
+ 
+   require("../Frontend_includes/frontend_footer.php");  
+
+     //navigation bar included
+ 
+ ?>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
 
 <!-- footer section ends -->
 
