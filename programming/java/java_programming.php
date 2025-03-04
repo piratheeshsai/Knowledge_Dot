@@ -11,20 +11,6 @@ session_start();
 	<!-- <link rel="stylesheet" type="text/css" href="../..//css/java_programming.css"> -->
 
 
-	<!-- Latest compiled and minified CSS
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-jQuery library -->
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	 Latest compiled JavaScript -->
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
-
-	<!----Linking google fonts-->
-	<!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">  -->
-
-	<!----font-awsome start-->
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
 	<!-- Bootstrap 4 CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -41,44 +27,7 @@ jQuery library -->
 	<link rel="stylesheet" type="text/css" href="../..//css/admin.css">
 
 
-	<!-- <script src="https://apis.google.com/js/platform.js"></script> -->
-
-
-	<!-- <style type="text/css">
-		#yt
-		{
-			margin-top: 50px;
-		}
-
-		#sidebarleftmenu
-		{
-				
-		}
-
-		body
-		{
-			
-
-		}
-
-
-
-		#mainpagecontent
-		{
-			background-color: white;
-			margin-top: 80px;
-			height: auto;
-			box-shadow: 5px 5px 5px 5px #ccc; 
-			border-color: #ccc;
-
-
-		}
-		.content
-		{
-			color: black !important;
-		}
-
-	</style> -->
+	
 </head>
 
 <body>
@@ -89,24 +38,8 @@ jQuery library -->
 
 	?>
 
-	<!--Starting of Side bar -->
-	<!-- <div class="sidebar" id="sidebarleftmenu">
-    <ul class="sidebar-menu">
-      <li class="active">
-        <a href="#">
-          <i class="fas fa-tachometer-alt"></i>
-          <span>Dashboard</span>
-        </a>
-      </li>
-      <li>
-        <a href="manage_courses/manage_courses.php">
-          <i class="fas fa-book"></i>
-          <span>Manage Courses</span>
-        </a>
-      </li>
-    </ul>
-  </div> -->
 
+      
 
 	<div class="sidebar" id="sidebarleftmenu">
 		<ul class="sidebar-menu">
@@ -159,6 +92,7 @@ jQuery library -->
 
 	<!-- <div id="mainpagecontent" class="shadow"> -->
 	<div class="main-content">
+	
 		<div class="content">
 			<p>
 

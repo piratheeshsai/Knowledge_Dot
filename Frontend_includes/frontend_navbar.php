@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/Knowledge_Dot/index.php">
       <i class="fas fa-graduation-cap"></i>
       <span>Knowledge Dot</span>
     </a>
@@ -32,7 +32,7 @@
               Settings
             </a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="../login.php">
+            <a class="dropdown-item" href="/Knowledge_Dot/logout.php" id="our-location">
               <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
               Logout
             </a>
