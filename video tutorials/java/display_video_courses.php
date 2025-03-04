@@ -1,13 +1,7 @@
-<?php 
-
-include 'conn.inc.php';
-include "../../admin/includes/navbar.php";
- ?>
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Knowledge Dot</title>
 	<style type="text/css">
 		
 .card-body
@@ -46,6 +40,8 @@ include "../../admin/includes/navbar.php";
 </head>
 <body>
 
+
+
 	 <!-- title image start -->
 	<br> <br><br>
 	<div class="container-fluid  div1">
@@ -62,6 +58,7 @@ include "../../admin/includes/navbar.php";
 			
 
 <?php 
+
 
 		$sql="select * from video_info";
 		$result=mysqli_query($con,$sql);
