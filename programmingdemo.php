@@ -113,16 +113,10 @@
 </div>
 
 
- 				</div>
- 				
- 			</section>
-
-
- 			<!---programming languages Section ends	----->
 
 
  			<!---footer Section Start	----->
-			 <div class="footer-dark">
+ <div class="footer-dark">
         <footer>
             <div class="container">
                 <div class="row">
