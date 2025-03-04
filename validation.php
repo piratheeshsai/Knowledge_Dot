@@ -14,7 +14,7 @@ else
 		echo "no connection";
 	}
 
- mysqli_select_db($con,'uniquedeveloper');
+ mysqli_select_db($con,'knowledgedot');
  $name=$_POST['name'];
  $pass=$_POST['password'];
  $email=$_POST['email'];
