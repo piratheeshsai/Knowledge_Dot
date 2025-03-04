@@ -34,14 +34,6 @@ include "../../admin/includes/navbar.php";
 	
 }
 
-.div1                           /* for title image*/
-{
-   position: relative;
-    height: 500px;
-    width: 1263px;
-    background:url(online_video_title.png);
-}
-
 
 	</style>
 </head>
