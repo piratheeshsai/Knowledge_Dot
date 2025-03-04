@@ -205,7 +205,8 @@ if (!isset($_SESSION['username'])) {
          		</div>
          	</div>
          	<div class="row">
-			 <a href="programmingdemo.php">
+
+			 <!-- <a href="programmingdemo.php">
          		<div class="col-md-4 col-sm-6 col-xs-12">
          			<div class="service-wrap text-center">
          				<div class="service-icon">
@@ -218,6 +219,19 @@ if (!isset($_SESSION['username'])) {
          				</p>
          			</div>
 					 </a>
+         		</div> -->
+
+				 <div class="col-md-4 col-sm-6 col-xs-12">
+         			<div class="service-wrap text-center">
+         				<div class="service-icon">
+         					<i class="fa fa-leaf"></i>
+         				</div>
+         				<h3><a href="programmingdemo.php">COURSES</a></h3>
+         				<p>
+						 Here you will find all the lecture tutorials related to programming languages 
+						 like JAVA,PYTHON,ANDROID etc
+         				</p>
+         			</div>
          		</div>
 
          		<div class="col-md-4 col-sm-6 col-xs-12">
@@ -236,7 +250,7 @@ if (!isset($_SESSION['username'])) {
          		<div class="col-md-4 col-sm-6 col-xs-12">
          			<div class="service-wrap text-center">
          				<div class="service-icon">
-         					<i class="fa fa-laptop"></i>
+         					<i class="fa fa-user-circle"></i>
          				</div>
          				<h3><a href="online_quize/quizhome.php">EXAMS</a></h3>   <!--  exercise/exercise.php -->
          				<p>
