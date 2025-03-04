@@ -226,7 +226,7 @@ if (!isset($_SESSION['username'])) {
          				<div class="service-icon">
          					<i class="fa fa-leaf"></i>
          				</div>
-         				<h3><a href="C:\xampp\htdocs\Knowledge_Dot\programmingdemo.php">COURSES</a></h3>
+         				<h3><a href="programmingdemo.php">COURSES</a></h3>
          				<p>
 						 Here you will find all the lecture tutorials related to programming languages 
 						 like JAVA,PYTHON,ANDROID etc
