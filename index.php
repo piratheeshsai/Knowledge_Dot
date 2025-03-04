@@ -37,10 +37,10 @@ if (!isset($_SESSION['username'])) {
 
 	<!----font-awsome ends-->
 
-		<!----css file link-->
+	<!----css file link-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-	   <!----favicon setting-->
+	<!----favicon setting-->
 	<link rel="shortcut icon" type="text/css" href="img/mylogo.png">
 
 	<!-- Latest compiled and minified CSS -->

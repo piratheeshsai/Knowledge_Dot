@@ -60,7 +60,7 @@ body {
 
 .sidebar-menu li.active a {
   color: #fff;
-  background: #4e73df;
+  background: #000000;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(58, 59, 69, 0.2);
 }
 
@@ -90,7 +90,7 @@ body {
 .navbar-brand i {
   font-size: 1.75rem;
   margin-right: 0.5rem;
-  color: #4e73df;
+  color: #000000;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -100,7 +100,7 @@ body {
 }
 
 .navbar-custom .navbar-nav .nav-link:hover {
-  color: #4e73df;
+  color: #000000;
 }
 
 .navbar-custom .form-control {
@@ -194,7 +194,7 @@ body {
 }
 
 .stat-card-primary {
-  border-left-color: #4e73df;
+  border-left-color: #000000;
 }
 
 .stat-card-success {
@@ -241,19 +241,19 @@ body {
 /* FAQ Section */
 .blockquote-custom {
   background-color: #f8f9fc;
-  border-left: 3px solid #4e73df;
+  border-left: 3px solid #000000;
   border-radius: 4px;
 }
 
 /* Buttons */
 .btn-primary {
-  background-color: #4e73df;
-  border-color: #4e73df;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-primary:hover {
-  background-color: #2e59d9;
-  border-color: #2653d4;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-success {
@@ -330,8 +330,8 @@ body {
 }
 
 .nav-tabs .nav-link.active {
-  color: #007bff;
-  border-bottom: 3px solid #007bff;
+  color: #000000;
+  border-bottom: 3px solid #000000;
   background: transparent;
 }
 
