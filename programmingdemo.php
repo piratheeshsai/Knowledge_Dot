@@ -112,14 +112,17 @@
     </div>
 </div>
 
+
+<!---footer Section Start	----->
+
 <?php
  
-   require("./Frontend_includes/frontend_footer.php");    //navigation bar included
+   require("./Frontend_includes/frontend_footer.php");    //footer included
  
  ?>
 
 
- 			<!---footer Section Start	----->
+ 			
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
