@@ -28,7 +28,7 @@ $quiz_list = $quiz->display_quiz_courses();
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
         <a class="navbar-brand" href="#">
             <i class="fas fa-graduation-cap"></i>
-            <span>Unique Developer</span>
+            <span>Knowledge Dot</span>
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
