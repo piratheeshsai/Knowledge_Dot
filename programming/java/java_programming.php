@@ -32,11 +32,7 @@ session_start();
 
 <body>
 
-	<?php
 
-	require("C:/xampp/htdocs/Knowledge_Dot/Frontend_includes/frontend_navbar.php");    //navigation bar included
-
-	?>
 
 
     
