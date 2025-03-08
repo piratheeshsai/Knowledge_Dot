@@ -60,7 +60,7 @@
 												<input type="text" name="contact" class="form-style" placeholder="Your Questions" id="logname" autocomplete="off">
 												<i class="input-icon uil uil-user"></i>
 											</div>	
-											<a href="#" class="btn mt-4">submit</a>
+											<a href="" class="btn mt-4">submit</a>
 				      					</div>
 			      					</div>
 			      				</div>
