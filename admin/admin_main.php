@@ -216,7 +216,7 @@
     <!-- Users Table -->
     <div class="card shadow mb-4">
       <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-        <h6 class="m-0 font-weight-bold text-primary">Users List</h6>
+        <h6 class="m-0 font-weight-bold text-primary" id="users">Users List</h6>
         <div>
           <button class="btn btn-sm btn-primary shadow-sm mr-2">
             <i class="fas fa-user-plus fa-sm"></i> Add User

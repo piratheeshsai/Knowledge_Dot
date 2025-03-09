@@ -73,19 +73,19 @@ $quiz_list = $quiz->display_quiz_courses();
         </a>
       </li>
       <li>
-        <a href="manage_videos/manage_videos.php">
+        <a href="../manage_videos/manage_videos.php">
           <i class="fas fa-video"></i>
           <span>Manage Videos</span>
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="../admin_main.php">
           <i class="fas fa-comments"></i>
           <span>Manage Comments</span>
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="../admin_main.php/#users">
           <i class="fas fa-users"></i>
           <span>Manage Users</span>
         </a>
