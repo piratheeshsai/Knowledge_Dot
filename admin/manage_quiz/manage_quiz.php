@@ -61,7 +61,7 @@ $quiz_list = $quiz->display_quiz_courses();
         </a>
       </li>
       <li>
-        <a href="manage_courses/manage_courses.php">
+        <a href="../manage_courses/manage_courses.php">
           <i class="fas fa-book"></i>
           <span>Manage Courses</span>
         </a>
