@@ -67,7 +67,7 @@ $quiz_list = $quiz->display_quiz_courses();
         </a>
       </li>
       <li>
-        <a href="manage_quiz/manage_quiz.php">
+        <a href="../manage_quiz/manage_quiz.php">
           <i class="fas fa-question-circle"></i>
           <span>Manage Quiz</span>
         </a>
