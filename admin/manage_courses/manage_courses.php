@@ -98,13 +98,13 @@ $course=$courses->display_courses();    //calling display_courses() method from 
         </a>
       </li>
       <li>
-        <a href="manage_courses/manage_courses.php">
+        <a href="manage_courses.php">
           <i class="fas fa-book"></i>
           <span>Manage Courses</span>
         </a>
       </li>
       <li>
-        <a href="manage_quiz/manage_quiz.php">
+        <a href="../manage_quiz/manage_quiz.php">
           <i class="fas fa-question-circle"></i>
           <span>Manage Quiz</span>
         </a>
