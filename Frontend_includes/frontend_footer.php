@@ -1,3 +1,7 @@
+<html>
+<head>
+
+</head>    
 <div class="footer-dark">
     <footer>
         <div class="container">
@@ -131,3 +135,5 @@
     margin-bottom: 0;
 }
 </style>
+
+</html>
