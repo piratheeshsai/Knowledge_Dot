@@ -7,11 +7,7 @@ session_start();
 
 <head>
 	<title>Knowledge Dot</title>
-	<!----css file link-->
-	<!-- <link rel="stylesheet" type="text/css" href="../..//css/java_programming.css"> -->
-
-
-
+	 
 	<!-- Bootstrap 4 CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
@@ -21,22 +17,20 @@ session_start();
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-
-
 	<link rel="stylesheet" type="text/css" href="css/admin.css">
 	<link rel="stylesheet" type="text/css" href="../..//css/admin.css">
-
-
-	
+	 
 </head>
 
 <body>
 
+<?php
+ 
+   require("../../Frontend_includes/frontend_navbar.php");    //navigation bar included
+ 
+ ?>
 
-
-
-    
-
+<!-- Sidebar -->
 	<div class="sidebar" id="sidebarleftmenu">
 		<ul class="sidebar-menu">
 			<!-- <li class="close-btn">
@@ -73,11 +67,6 @@ session_start();
 			<?php } ?>
 		</ul>
 	</div>
-
-
-
-
-
 
 
 	</div>
