@@ -30,7 +30,7 @@ if ($con) {
 		
 	
 
-	<h1 class="text-center text-primary">UNIQUE DEVELOPER QUIZE</h1>
+	<h1 class="text-center text-primary">Knowledge Dot Quiz</h1>
 
 	<div class="col-lg-9 m-auto d-block">
 		<div class="card">
@@ -92,7 +92,6 @@ if ($con) {
 
 </div><br><br>
 <div class="card-header text-center text-primary">
-	Copyright © 2019,UNIQUE DEVELOPER . All rights reserved.
 </div>
 
 
