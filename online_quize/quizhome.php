@@ -44,7 +44,7 @@
     }
 
     .btn-custom-blue {
-    background-color:rgb(0, 0, 0); /* Change to any blue shade */
+    background-color:rgb(0, 0, 0);
     border-color:rgb(0, 0, 0);
     color: white;
   }
