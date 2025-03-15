@@ -137,24 +137,6 @@
         </div>
       </div>
 
-      <!-- FAQ Card -->
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card shadow h-100 py-2 stat-card stat-card-danger">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">Active FAQs</div>
-                <div class="h5 mb-0 font-weight-bold text-gray-800"><?php $faq = $admin->display_faq_list(); echo count($faq); ?></div>
-              </div>
-              <div class="col-auto">
-                <i class="fas fa-question-circle fa-2x text-gray-300 icon"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Content Row -->
     <div class="row">
       <!-- Main Cards -->
@@ -218,12 +200,6 @@
       <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
         <h6 class="m-0 font-weight-bold text-primary" id="users">Users List</h6>
         <div>
-          <button class="btn btn-sm btn-primary shadow-sm mr-2">
-            <i class="fas fa-user-plus fa-sm"></i> Add User
-          </button>
-          <button class="btn btn-sm btn-outline-primary shadow-sm">
-            <i class="fas fa-download fa-sm"></i> Export
-          </button>
         </div>
       </div>
       <div class="card-body">
@@ -254,71 +230,27 @@
       </div>
     </div>
 
-    <!-- Quiz and FAQ Section -->
-    <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card shadow">
-          <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-success">Manage Quiz</h6>
-          </div>
-          <div class="card-body">
-            <div class="text-center">
-              <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 15rem;" src="../uploadimg/file6.png" alt="Quiz Image">
-            </div>
-            <p>Create and manage quizzes for your courses. Set up questions, answers, and scoring.</p>
-            <a href="manage_quiz/manage_quiz.php" class="btn btn-success btn-block">
-              <i class="fas fa-question-circle mr-2"></i> Go to Quiz
-            </a>
-          </div>
-        </div>
-      </div>
+    <!-- Quiz Section -->
 
-      <div class="col-lg-8 mb-4">
-        <div class="card shadow">
-          <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-            <h6 class="m-0 font-weight-bold text-info">Frequently Asked Questions</h6>
-            <button class="btn btn-sm btn-info shadow-sm">
-              <i class="fas fa-plus fa-sm"></i> Add FAQ
-            </button>
-          </div>
-          <div class="card-body">
-            <div class="table-responsive">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col" width="5%">ID</th>
-                    <th scope="col" width="75%">Question & Answer</th>
-                    <th scope="col" width="20%">Actions</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <?php 
-                  $faq = $admin->display_faq_list();
-                  foreach ($faq as $faq_list) { ?>
-                  <tr>
-                    <td><?php echo $faq_list['id']; ?></td>
-                    <td>
-                      <strong><?php echo $faq_list['faq_title']; ?></strong>
-                      <p class="blockquote-custom p-2 mt-2"><?php echo $faq_list['faq_description']; ?></p>
-                    </td>
-                    <td>
-                      <button class="btn btn-sm btn-info mb-2">
-                        <i class="fas fa-edit"></i> Edit
-                      </button>
-                      <button class="btn btn-sm btn-danger">
-                        <i class="fas fa-trash"></i> Delete
-                      </button>
-                    </td>
-                  </tr>
-                  <?php } ?>
-                </tbody>
-              </table>
-            </div>
-          </div>
+  <div class="col-lg-6 mb-8 px-10"> <!-- Increased width to col-lg-6 and adjusted padding -->
+    <div class="card shadow">
+      <div class="card-header py-3">
+        <h5 class="m-0 font-weight-bold text-success">Manage Quiz</h5> <!-- Slightly larger heading -->
+      </div>
+      <div class="card-body">
+        <div class="text-center">
+          <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 18rem;" src="../uploadimg/file6.png" alt="Quiz Image">
         </div>
+        <p class="text-lg">Create and manage quizzes for your courses. Set up questions, answers, and scoring.</p>
+        <a href="manage_quiz/manage_quiz.php" class="btn btn-success btn-lg btn-block">
+          <i class="fas fa-question-circle mr-2"></i> Go to Quiz
+        </a>
       </div>
     </div>
   </div>
+
+
+ 
 
   <!-- Bootstrap 4 JS and dependencies -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
