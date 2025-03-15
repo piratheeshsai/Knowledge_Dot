@@ -128,7 +128,7 @@ body {
  				<!-- navigation bar starts -->
 
   <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-  <a class="navbar-brand text-white" href="#">Unique Developer</a>
+  <a class="navbar-brand text-white" href="#">Knowledge Dot</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -181,12 +181,12 @@ body {
         <div class="col-sm-2 col-md-2 sidebar badge-dark" style="margin:inherit;" id="sidebar" >
          <ul class="list-group text-white sidebar-list">
             <li class="list-group-item  bg-dark "><a href="../admin_main.php">Welcome Admin</a></li>
-            <li class="list-group-item bg-dark "><a href="manage_courses/manage_courses.php">Manage Courses</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Quize</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Videos</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Comments</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Users</a></li>
-            <li class="list-group-item bg-dark"><a href="">Logout</a></li>
+            <li class="list-group-item bg-dark "><a href="../manage_courses/manage_courses.php">Manage Courses</a></li>
+            <li class="list-group-item bg-dark"><a href="../manage_quiz/manage_quiz.php">Manage Quize</a></li>
+            <li class="list-group-item bg-dark"><a href="../manage_videos/manage_videos.php">Manage Videos</a></li>
+            <li class="list-group-item bg-dark"><a href="../admin_main.php">Manage Comments</a></li>
+            <li class="list-group-item bg-dark"><a href="../admin_main.php/#users">Manage Users</a></li>
+            <li class="list-group-item bg-dark"><a href="../logout.php">Logout</a></li>
             <li class="list-group-item bg-dark" style="height: 400px;"></li>
           </ul>
         </div>

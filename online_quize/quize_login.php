@@ -15,7 +15,7 @@
 			<div class="col-sm-12">
 			<div class="card" >
 				<div class=" card-header card-primary p-1">
-					<h2 class="text-success text-center">WELCOME TO UNIQUE DEVELOER</h2>
+					<h2 class="text-success text-center">WELCOME TO Knowledge Dot</h2>
 
 				</div>
 				<div class="card-body p-1">

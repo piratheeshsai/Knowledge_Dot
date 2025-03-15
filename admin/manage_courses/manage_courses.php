@@ -37,7 +37,8 @@ $course=$courses->display_courses();    //calling display_courses() method from 
 <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
     <a class="navbar-brand" href="#">
       <i class="fas fa-graduation-cap"></i>
-      <span>Unique Developer</span>
+      <span>Knowledge Dot
+      </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -97,25 +98,25 @@ $course=$courses->display_courses();    //calling display_courses() method from 
         </a>
       </li>
       <li>
-        <a href="manage_courses/manage_courses.php">
+        <a href="manage_courses.php">
           <i class="fas fa-book"></i>
           <span>Manage Courses</span>
         </a>
       </li>
       <li>
-        <a href="manage_quiz/manage_quiz.php">
+        <a href="../manage_quiz/manage_quiz.php">
           <i class="fas fa-question-circle"></i>
           <span>Manage Quiz</span>
         </a>
       </li>
       <li>
-        <a href="manage_videos/manage_videos.php">
+        <a href="../manage_videos/manage_videos.php">
           <i class="fas fa-video"></i>
           <span>Manage Videos</span>
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="../admin_main.php">
           <i class="fas fa-comments"></i>
           <span>Manage Comments</span>
         </a>
