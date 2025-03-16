@@ -32,7 +32,7 @@
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="../admin_main.php#users">
           <i class="fas fa-users"></i>
           <span>Manage Users</span>
         </a>
