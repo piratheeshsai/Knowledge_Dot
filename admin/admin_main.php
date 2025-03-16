@@ -108,7 +108,7 @@
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="#users">
           <i class="fas fa-users"></i>
           <span>Manage Users</span>
         </a>
@@ -173,7 +173,7 @@
       </div>
 
       <!-- Users Card -->
-      <div class="col-xl-3 col-md-6 mb-4">
+      <div class="col-xl-3 col-md-6 mb-4" >
         <div class="card shadow h-100 py-2 stat-card stat-card-warning">
           <div class="card-body">
             <div class="row no-gutters align-items-center">
@@ -248,7 +248,7 @@
     </div>
 
     <!-- Users Table -->
-    <div class="card shadow mb-4">
+    <div class="card shadow mb-4" id="users">
       <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
         <h6 class="m-0 font-weight-bold text-primary" id="users">Users List</h6>
         <div>

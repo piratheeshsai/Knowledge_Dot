@@ -135,9 +135,7 @@ body {
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto ">
-      <li class="nav-item active">
-        <a class="nav-link text-white" href="../admin_main.php">Home <span class="sr-only">(current)</span></a>
-      </li>
+     
      <!--  <li class="nav-item">
         <a class="nav-link text-white" href="#">Link</a>
       </li>
@@ -182,10 +180,10 @@ body {
          <ul class="list-group text-white sidebar-list">
             <li class="list-group-item  bg-dark "><a href="../admin_main.php">Welcome Admin</a></li>
             <li class="list-group-item bg-dark "><a href="../manage_courses/manage_courses.php">Manage Courses</a></li>
-            <li class="list-group-item bg-dark"><a href="../manage_quiz/manage_quiz.php">Manage Quize</a></li>
+            <li class="list-group-item bg-dark"><a href="../manage_quiz/manage_quiz.php">Manage Quiz</a></li>
             <li class="list-group-item bg-dark"><a href="../manage_videos/manage_videos.php">Manage Videos</a></li>
             <li class="list-group-item bg-dark"><a href="../admin_main.php">Manage Comments</a></li>
-            <li class="list-group-item bg-dark"><a href="../admin_main.php/#users">Manage Users</a></li>
+            <li class="list-group-item bg-dark"><a href="../admin_main.php#users">Manage Users</a></li>
             <li class="list-group-item bg-dark"><a href="../logout.php">Logout</a></li>
             <li class="list-group-item bg-dark" style="height: 400px;"></li>
           </ul>
