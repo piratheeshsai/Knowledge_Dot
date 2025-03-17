@@ -55,14 +55,6 @@
             
           </a>
           <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-            <a class="dropdown-item" href="#">
-              <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-              Profile
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-              Settings
-            </a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="../login.php">
               <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
@@ -111,12 +103,6 @@
         <a href="#users">
           <i class="fas fa-users"></i>
           <span>Manage Users</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fas fa-chart-pie"></i>
-          <span>Reports</span>
         </a>
       </li>
       <li>

@@ -116,24 +116,6 @@ $course=$courses->display_courses();    //calling display_courses() method from 
         </a>
       </li>
       <li>
-        <a href="../admin_main.php">
-          <i class="fas fa-comments"></i>
-          <span>Manage Comments</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fas fa-users"></i>
-          <span>Manage Users</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fas fa-chart-pie"></i>
-          <span>Reports</span>
-        </a>
-      </li>
-      <li>
         <a href="../login.php">
           <i class="fas fa-sign-out-alt"></i>
           <span>Logout</span>
@@ -141,11 +123,6 @@ $course=$courses->display_courses();    //calling display_courses() method from 
       </li>
     </ul>
   </div>
-
-
-
-
-
 
 
   <div class="main-content">
