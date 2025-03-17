@@ -44,7 +44,6 @@
 											</div>
 											<!-- <a href="#" class="btn mt-4" type="submit">submit</a> -->
 											<input type="submit" class="btn mt-4" name="submit" id="submit-btn" value="SignIn">
-                            				<p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your password?</a></p>
 											</form>
 										</div>
 			      					</div>
