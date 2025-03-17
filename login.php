@@ -43,7 +43,7 @@
 												<i class="input-icon uil uil-lock-alt"></i>
 											</div>
 											<!-- <a href="#" class="btn mt-4" type="submit">submit</a> -->
-											<input type="submit" class="btn mt-4" name="submit" id="submit-btn" value="SignIn">
+											<input type="submit" class="btn mt-4" name="submit" id="submit-btn" value="LogIn">
 											</form>
 										</div>
 			      					</div>

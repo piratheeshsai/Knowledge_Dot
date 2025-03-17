@@ -137,7 +137,7 @@ if (!isset($_SESSION['username'])) {
 							
 						</div>
 							<div class="cta-div">
-								<a href="" class="btn1">CONTACT US</a>
+								<a href="#myservice_section" class="btn1">CONTACT US</a>
 								<a href="#myservice_section" class="btn2">LEARN TODAY</a>
 							</div>
 							<br><br>
@@ -146,48 +146,6 @@ if (!isset($_SESSION['username'])) {
 			</section>
 
 			<!---Slider Section ends------->
-
-			<!---Login Start------->
-
-			<div class="modal fade modal-dialog-centered" id="mymodal">
-				<div class="modal-dialog ">
-					<div class="modal-content">
-						<h3 id="login-heading">Login</h3>
-						
-					<div class="modal-body" >
-						<div class="left-box">
-						<form method="POST" action="validation.php">
-							<div class="form-group">
-								<label><i class="fa fa-user fa-2x"></i>Username :</label>
-								<input type="text" name="name" class="form-control">
-
-								<label><i class="fa fa-lock fa-2x"></i>Password :</label>
-								<input type="password" name="password" class="form-control">
-								<button id="btn-login" type="submit">Login</button>
-								
-							</div>
-							<div class="register">
-								<h2>Don't have an account?&nbsp<span id="create-account"><a href="signup.html">Create</span></a> </h2>
-							</div>
-							
-						</form>
-					</div>
-					<div class="right-box">
-						<span class="signinwith">Sign in With <br> Social Networks</span>
-
-						<button class="social facebook">Log in with Facebook</button>
-						<button class="social twitter">Log in with twitter</button>
-						<button class="social google">Log in with gmail</button>
-					</div>
-						
-					</div>
-					
-						
-				</div>
-			</div>
-		</div>
-
-         <!---Login Ends------->
 
          <!---Our Services Section Start------->
 
@@ -199,27 +157,12 @@ if (!isset($_SESSION['username'])) {
          			<div class="section-title text-center">
          				<h2><b>SERVICES</b></h2>
          				<p>
-         					This is Our Serices Theses are The Services Provided by Code Worriors
+         					This is Our Services, Theses are Provided by Code Worriors
          				</p>
          			</div>
          		</div>
          	</div>
          	<div class="row">
-
-			 <!-- <a href="programmingdemo.php">
-         		<div class="col-md-4 col-sm-6 col-xs-12">
-         			<div class="service-wrap text-center">
-         				<div class="service-icon">
-         					<i class="fa fa-leaf"></i>
-         				</div>
-         				<h3>COURSES</h3>
-         				<p>
-         					Here you will find all the lecture tutorials related to programming languages 
-         					like JAVA,PYTHON,ANDROID etc
-         				</p>
-         			</div>
-					 </a>
-         		</div> -->
 
 				 <div class="col-md-4 col-sm-6 col-xs-12">
          			<div class="service-wrap text-center">
@@ -263,20 +206,6 @@ if (!isset($_SESSION['username'])) {
      </div>
 
 			<!---Our Services Section Ends------->
-
-			<!---Emailnotification Section Start------->
-
-
-
-			<!---Emailnotification Section Start------->
-
-
-			<!---Our Services Section Ends------->
-
-
-			<!---Our Services Section Ends------->
-
-
 
 			<!---Our Team Section Start------->
 			<br><br><br>
@@ -403,27 +332,6 @@ if (!isset($_SESSION['username'])) {
 </div>
 
 			<!---Our Team Section Ends------->
-<!-- =============================================================================================================================== -->
-
-
-
-
-<!-- =============================================================================================================================== -->
-			<!---FAQs Section Start------->
-
-			<!---FAQs Section Ends------->
-
-
-			<!---Contact us Section Start------->
-
-
-<!------ Include the above in your HEAD tag ---------->
-
-
-			<!---Contact us Section Ends------->
-
-
-
 
  			<!---footer Section Start	----->
 			 <div class="footer-dark">
