@@ -38,7 +38,7 @@ $quiz_list = $quiz->display_quiz_courses();
                     </a>
                     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in">
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="../login.php">
+                        <a class="dropdown-item" href="../../logout.php">
                             <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
                         </a>
                     </div>
