@@ -2,18 +2,16 @@
 include("../classes/manage_videos_class.php");
 $videos=new manage_videos_class;			// creating object of  manage_courses_class.php
 $video=$videos->display_videos();    //calling display_courses() method from manage_courses_class.php
-
- ?>
-
+?>
 
  <!DOCTYPE html>
  <html>
  <head>
- 	<title></title>
+ 	<title>Knowladge Dot</title>
 
  	<!-- bootstrap CDN files -->
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -29,138 +27,61 @@ $video=$videos->display_videos();    //calling display_courses() method from man
    <!--  font awsome cdn -->
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  	<!-- 		css starts -->
- <style type="text/css">
- 	
+   <!-- Font Awesome Icons -->
 
-    .sidebar-list
-    {
-        margin-right: -15px;
-        
-        font-family: 'Quicksand', sans-serif; 
-        font-size: 14px
-    }
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
-    .sidebar-list li:hover
-    {
-      background-color: deepskyblue !important;
-    }
-     .sidebar-list li a
-     {
-        color:white;
-        text-decoration: none;
-     }
-     .card1
-     {
-     	font-family: 'Open Sans', sans-serif;
-     }
-     .cardh2
-     {
-     	font-family: 'Lato', sans-serif;
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-     }
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" type="text/css" href="../..//css/admin.css">
 
-
-     /***
-Bootstrap4 Card with Tabs by @mdeuerlein
-***/
-
-/***
-Bootstrap4 Card with Tabs by @mdeuerlein
-***/
-
-body {
-    background-color: #f7f8f9;
-}
-
-.card {
-    background-color: #ffffff;
-    border: 1px solid rgba(0, 34, 51, 0.1);
-    box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
-    border-radius: 0.15rem;
-}
-
-/* Tabs Card */
-
-.tab-card {
-  border:1px solid #eee;
-}
-
-.tab-card-header {
-  background:none;
-}
-/* Default mode */
-.tab-card-header > .nav-tabs {
-  border: none;
-  margin: 0px;
-}
-.tab-card-header > .nav-tabs > li {
-  margin-right: 2px;
-}
-.tab-card-header > .nav-tabs > li > a {
-  border: 0;
-  border-bottom:2px solid transparent;
-  margin-right: 0;
-  color: #737373;
-  padding: 2px 15px;
-}
-
-.tab-card-header > .nav-tabs > li > a.show {
-    border-bottom:2px solid #007bff;
-    color: #007bff;
-}
-.tab-card-header > .nav-tabs > li > a:hover {
-    color: #007bff;
-}
-
-.tab-card-header > .tab-content {
-  padding-bottom: 0;
-}
-
-
- </style>
  </head>
  <body onload="">
  
  <!-- ========================================================================================================================== -->
 
- 				<!-- navigation bar starts -->
+<!-- navigation bar starts -->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-  <a class="navbar-brand text-white" href="#">Knowledge Dot</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+	<nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+    <a class="navbar-brand" href="#">
+      <i class="fas fa-graduation-cap"></i>
+      <span>Knowledge Dot
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto ">
-     
-     <!--  <li class="nav-item">
-        <a class="nav-link text-white" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li> -->
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <!-- Search Form -->
+       
+        
+        <!-- Divider -->
+        <div class="topbar-divider d-none d-sm-block"></div>
+    
+       
+        
+        <!-- User Information -->
+        <li class="nav-item dropdown no-arrow">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin User</span>  
+          </a>
+          <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="#">
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../login.php">
+              <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+              Logout
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
 				<!-- navigation bar ends -->
 <!-- ========================================================================================================================== -->
 
@@ -173,22 +94,41 @@ body {
 
 <!-- sidebar starts -->
 
-
-
-
-        <div class="col-sm-2 col-md-2 sidebar badge-dark" style="margin:inherit;" id="sidebar" >
-         <ul class="list-group text-white sidebar-list">
-            <li class="list-group-item  bg-dark "><a href="../admin_main.php">Welcome Admin</a></li>
-            <li class="list-group-item bg-dark "><a href="../manage_courses/manage_courses.php">Manage Courses</a></li>
-            <li class="list-group-item bg-dark"><a href="../manage_quiz/manage_quiz.php">Manage Quiz</a></li>
-            <li class="list-group-item bg-dark"><a href="../manage_videos/manage_videos.php">Manage Videos</a></li>
-            <li class="list-group-item bg-dark"><a href="#">Manage Comments</a></li>
-            <li class="list-group-item bg-dark"><a href="../admin_main.php#users">Manage Users</a></li>
-            <li class="list-group-item bg-dark"><a href="../logout.php">Logout</a></li>
-            <li class="list-group-item bg-dark" style="height: 400px;"></li>
-          </ul>
-        </div>
-
+    <!-- Custom Sidebar -->
+    <div class="sidebar">
+    <ul class="sidebar-menu">
+      <li class="active">
+        <a href="../admin_main.php">
+          <i class="fas fa-tachometer-alt"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="../manage_courses/manage_courses.php">
+          <i class="fas fa-book"></i>
+          <span>Manage Courses</span>
+        </a>
+      </li>
+      <li>
+        <a href="../manage_quiz/manage_quiz.php">
+          <i class="fas fa-question-circle"></i>
+          <span>Manage Quiz</span>
+        </a>
+      </li>
+      <li>
+        <a href="../manage_videos/manage_videos.php">
+          <i class="fas fa-video"></i>
+          <span>Manage Videos</span>
+        </a>
+      </li>
+      <li>
+        <a href="../admin_main.php#users">
+          <i class="fas fa-users"></i>
+          <span>View Users</span>
+        </a>
+      </li>
+    </ul>
+  </div>
         <!-- sidebar ends -->
 
   <!-- ========================================================================================================================== -->
@@ -203,35 +143,19 @@ body {
 
 		<!-- Nav tabs strats -->
 
-
+<div class="main-content">
 <ul class="nav nav-tabs">
   <li class="nav-item">
     <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#manage_course">Manage Course</a>
-  </li>
- <!--  <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
-  </li> -->
 </ul>
-		<!-- Nav tabs ends -->
-
-<!-- ========================================================================================================================== -->
-
-
-
-<div class="tab-content">
-
-
-
 <!-- ========================================================================================================================== -->
 
 			<!-- home panes starts -->
 
 
   <div class="tab-pane container active" id="home">
-<div class="card-header mt-3 mr-5 bg-white text-info border-0 shadow card1" style="width: 1050px; box-shadow: 1px 1px 1px 1px #ccc"><b>YOUR COURSES</b></div><br>
+<div class="card-header mt-3 mr-5 bg-white text-info border-0 shadow card1" style="width: 1050px; box-shadow: 1px 1px 1px 1px #ccc"><b>YOUR CLASSES</b></div><br>
 <div class="row">
 
 

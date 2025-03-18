@@ -2,14 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Knowladge Dot</title>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 
 
 <!-- google font -->
@@ -20,71 +17,108 @@
    <!--  font awsome cdn -->
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
- <style type="text/css">
- 	
+   <!-- Font Awesome Icons -->
 
-    .sidebar-list
-    {
-        margin-right: -15px;
-        
-        font-family: 'Quicksand', sans-serif; 
-        font-size: 14px
-    }
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
-    .sidebar-list li:hover
-    {
-      background-color: deepskyblue !important;
-    }
-     .sidebar-list li a
-     {
-        color:white;
-        text-decoration: none;
-     }
- </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" type="text/css" href="../..//css/admin.css">
 </head>
 
 <body>
-	
-<?php
 
-	 require("../includes/navbar.php");    //navigation bar included
-
- ?>
-
- <div class="container-fluid" style="margin-top: 50px;" >
-      <div class="row">
+ <!-- <div class="container-fluid" style="margin-top: 50px;" >
+      <div class="row"> -->
 <!-- ========================================================================================================================== -->
 
 <!-- sidebar starts -->
+ <!-- Custom Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+    <a class="navbar-brand" href="#">
+      <i class="fas fa-graduation-cap"></i>
+      <span>Knowledge Dot</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <!-- Search Form -->
+
+        
+        <!-- Divider -->
+        <!-- <div class="topbar-divider d-none d-sm-block"></div> -->
+    
+       
+        
+        <!-- User Information -->
+        <li class="nav-item dropdown no-arrow">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin User</span>
+            
+          </a>
+          <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../login.php">
+              <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+              Logout
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 
-
-
-        <div class="col-sm-2 col-md-2 sidebar badge-dark" style="margin:inherit;" id="sidebar" >
-         <ul class="list-group text-white sidebar-list">
-            <li class="list-group-item  bg-dark "><a href="../admin_main.php">Welcome Admin</a></li>
-            <li class="list-group-item bg-dark "><a href="../manage_courses/manage_courses.php">Manage Courses</a></li>
-            <li class="list-group-item bg-dark"><a href="../manage_quiz/manage_quiz.php">Manage Quiz</a></li>
-            <li class="list-group-item bg-dark"><a href="../manage_videos/manage_videos.php">Manage Videos</a></li>
-            <li class="list-group-item bg-dark"><a href="#">Manage Comments</a></li>
-            <li class="list-group-item bg-dark"><a href="../admin_main.php#users">Manage Users</a></li>
-            <li class="list-group-item bg-dark"><a href="../login.php">Logout</a></li>
-            <li class="list-group-item bg-dark" style="height: 400px;"></li>
-          </ul>
-        </div>
-
+    <!-- Custom Sidebar -->
+    <div class="sidebar">
+    <ul class="sidebar-menu">
+      <li class="active">
+        <a href="../admin_main.php">
+          <i class="fas fa-tachometer-alt"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="../manage_courses/manage_courses.php">
+          <i class="fas fa-book"></i>
+          <span>Manage Courses</span>
+        </a>
+      </li>
+      <li>
+        <a href="../manage_quiz/manage_quiz.php">
+          <i class="fas fa-question-circle"></i>
+          <span>Manage Quiz</span>
+        </a>
+      </li>
+      <li>
+        <a href="../manage_videos/manage_videos.php">
+          <i class="fas fa-video"></i>
+          <span>Manage Videos</span>
+        </a>
+      </li>
+      <li>
+        <a href="../admin_main.php#users">
+          <i class="fas fa-users"></i>
+          <span>View Users</span>
+        </a>
+      </li>
+    </ul>
+  </div>
         <!-- sidebar ends -->
-
   <!-- ========================================================================================================================== -->
-
-
-
-  		<div class="col-md-10 ">   <!--  main body content starts -->
-        <div>
+  <div class="main-content">
+  		<div class="col-md-10 ">  <!--  main body content starts -->
         <h3 class="text-center mt-2">Manage Your <?php  echo $_GET['course_name'];  ?> &nbsp online video tutorial</h3>
         <button class="btn btn-primary float-right" data-toggle="modal" data-target="#myModal">Add New Video</button><br>
       </div>
-        <div class="row col-md-12 ml-2 shadow">
+        <div class="row col-md-10  shadow">
        
        
       
@@ -127,11 +161,8 @@ mysqli_select_db($con,'uniquedeveloper');
 
       
       <?php } ?>     <!--  while loop closed -->
-
-
-      
        </div>
-
+     </div>
 
 
 
@@ -182,22 +213,8 @@ mysqli_select_db($con,'uniquedeveloper');
           </div>
         </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
 		</div>
 	</div>
 	</div>
-
-
 <body>	
 </html>
