@@ -1,32 +1,20 @@
 <?php 
 	session_start();
- ?>
+?>
 <!DOCTYPE html>
 <html>
 <head>
     <title>Knowledge Dot</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 
-<!-- Font Awesome Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Bootstrap and Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-
-  <!----font-awsome start-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-<link rel="stylesheet" type="text/css" href="../..//css/admin.css">
+    <link rel="stylesheet" type="text/css" href="../..//css/admin.css">
     
     <style>
         /* Section Styling */
@@ -57,8 +45,7 @@
         include "../../frontend_includes/frontend_navbar.php";
     ?>
 
-    <div class="container-fluid" data-aos="fade-up">
-    </div>
+    <div class="container-fluid" data-aos="fade-up"></div>
 
     <!-- Programming Languages Section Start -->
     <section class="programming-languages py-5 bg-light" data-aos="fade-in">
@@ -76,38 +63,34 @@
 
     <br><br><br>
     <div class="container">
-    <div class="row d-flex flex-row flex-nowrap" style="gap: 1rem;">
-        <?php 
-            $sql = "SELECT * FROM video_info";
-            $result = mysqli_query($con, $sql);
-            while ($row = mysqli_fetch_array($result)) {
-        ?> 
-        <div class="col-12 col-md-4 col-sm-6" style="width: 18rem;" data-aos="zoom-in">
-            <div class="card shadow h-100 py-2 stat-card stat-card-dark">
-                <div class="news-img text-center">
-                    <img src="<?php echo $row['image']; ?>" class="img-fluid" style="max-height: 150px; object-fit: cover; border-radius: 10px;" alt="Course Image">
-                </div>
-                <div class="text-center mt-3">
-                    <div class="text-xs font-weight-bold text-dark text-uppercase mb-1">
-                        <?php echo $row['course_name']; ?>
+        <div class="row d-flex flex-row flex-nowrap" style="gap: 1rem;">
+            <?php 
+                $sql = "SELECT * FROM video_info";
+                $result = mysqli_query($con, $sql);
+                while ($row = mysqli_fetch_array($result)) {
+            ?> 
+            <div class="col-12 col-md-4 col-sm-6" style="width: 18rem;" data-aos="zoom-in">
+                <div class="card shadow h-100 py-2 stat-card stat-card-dark">
+                    <div class="news-img text-center">
+                        <img src="<?php echo $row['image']; ?>" class="img-fluid" style="max-height: 150px; object-fit: cover; border-radius: 10px;" alt="Course Image">
+                    </div>
+                    <div class="text-center mt-3">
+                        <div class="text-xs font-weight-bold text-dark text-uppercase mb-1">
+                            <?php echo $row['course_name']; ?>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="display_video_list.php?course_name=<?php echo $row['course_name']; ?>" class="btn btn-primary btn-sm">
+                            Watch Videos
+                        </a>
                     </div>
                 </div>
-                <div class="text-center">
-                    <a href="display_video_list.php?course_name=<?php echo $row['course_name']; ?>" class="btn btn-primary btn-sm">
-                        Watch Videos
-                    </a>
-                </div>
             </div>
+            <?php } ?>
         </div>
-        <?php } ?>
     </div>
-</div>
 
-
-<div class="container" style="padding-bottom: 50px;"></div> <!-- Adjust as needed -->
-
-
-         
+    <div class="container" style="padding-bottom: 50px;"></div> <!-- Adjust as needed -->
 
     <!-- Footer -->
     <?php include "../../Frontend_includes/frontend_footer.php"; ?>

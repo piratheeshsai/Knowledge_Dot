@@ -1,7 +1,9 @@
 <html>
 <head>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
 
-</head>    
 <div class="footer-dark">
     <footer>
         <div class="container">
@@ -27,9 +29,9 @@
                     <p>We are the EEY4189 Software Design in Group Project Team. We created this system for online education.</p>
                 </div>
                 <div class="col item social">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <p class="copyright">Code Warriors © 2025</p>

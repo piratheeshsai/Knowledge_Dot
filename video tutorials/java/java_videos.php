@@ -14,46 +14,32 @@ date_default_timezone_set('Asia/Kolkata');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Knowledge_Dot</title>
-
-    <!-- Bootstrap 4 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Knowledge Dot</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
+    <!-- Font Awesome (Latest) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-<!-- Font Awesome Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Additional Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../../css/admin.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-
-  <!----font-awsome start-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-<link rel="stylesheet" type="text/css" href="../..//css/admin.css">
-    
-
-
-
+    <!-- JavaScript Dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
 
     <!-- Custom Styles -->
     <style>
         /* General Styling */
-		body {
+        body {
             font-family: 'Poppins', sans-serif;
             background-color: #f8f9fa;
             padding-top: 70px; /* Ensures navbar does not overlap */
@@ -67,6 +53,7 @@ date_default_timezone_set('Asia/Kolkata');
             padding: 15px;
             background-color: #fff;
         }
+
         .video-container iframe {
             border-radius: 6px;
             width: 100%;
@@ -80,6 +67,7 @@ date_default_timezone_set('Asia/Kolkata');
             border-radius: 8px;
             padding: 15px;
         }
+
         .comment-section textarea {
             width: 100%;
             height: 80px;
@@ -87,6 +75,7 @@ date_default_timezone_set('Asia/Kolkata');
             padding: 8px;
             border: 1px solid #ccc;
         }
+
         .comment-section button {
             margin-top: 10px;
             background-color: #007bff;
@@ -95,6 +84,7 @@ date_default_timezone_set('Asia/Kolkata');
             padding: 8px 15px;
             border: none;
         }
+
         .comment-section button:hover {
             background-color: #0056b3;
         }
@@ -106,9 +96,11 @@ date_default_timezone_set('Asia/Kolkata');
             border-radius: 8px;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
         }
+
         .popular-videos img {
             border-radius: 5px;
         }
+
         .popular-videos h5 {
             text-align: center;
             font-weight: 600;
@@ -133,11 +125,10 @@ date_default_timezone_set('Asia/Kolkata');
                             while ($row = mysqli_fetch_array($result)) {
                         ?>
                         src="<?php echo $row['video_path']; ?>"
-                        <?php } ?>></iframe>
+                        <?php } ?>
+                    ></iframe>
                 </div>
             </section>
-
-
 
             <!-- Popular Videos -->
             <aside class="col-md-4 ml-5 mt-4">

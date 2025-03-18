@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <!-- Font Awesome Icons for logo-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  </head>
+  
 <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
     <a class="navbar-brand" href="/Knowledge_Dot/index.php">
       <i class="fas fa-graduation-cap"></i>
@@ -41,3 +50,4 @@
       </ul>
     </div>
   </nav>
+  </html>
