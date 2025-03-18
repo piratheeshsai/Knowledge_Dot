@@ -94,21 +94,9 @@
         </a>
       </li>
       <li>
-        <a href="#">
-          <i class="fas fa-comments"></i>
-          <span>Manage Comments</span>
-        </a>
-      </li>
-      <li>
         <a href="#users">
           <i class="fas fa-users"></i>
-          <span>Manage Users</span>
-        </a>
-      </li>
-      <li>
-        <a href="../login.php">
-          <i class="fas fa-sign-out-alt"></i>
-          <span>Logout</span>
+          <span>View Users</span>
         </a>
       </li>
     </ul>
@@ -188,7 +176,7 @@
               </a>
               <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
                 <div class="dropdown-header">Course Actions:</div>
-                <a class="dropdown-item" href="#">Add New Course</a>
+                <a class="dropdown-item" href="/knowledge_dot/admin/manage_courses/manage_courses.php">Add New Course</a>
                 <a class="dropdown-item" href="manage_courses/manage_courses.php">View All Courses</a>
               </div>
             </div>
@@ -208,14 +196,14 @@
       <div class="col-lg-6 mb-4">
         <div class="card shadow">
           <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-            <h6 class="m-0 font-weight-bold text-danger">Manage Videos</h6>
+            <h6 class="m-0 font-weight-bold text-danger">Manage Classes</h6>
             <div class="dropdown no-arrow">
               <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
               </a>
               <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
                 <div class="dropdown-header">Video Actions:</div>
-                <a class="dropdown-item" href="#">Upload New Video</a>
+                <a class="dropdown-item" href="manage_videos/manage_videos.php">Upload New Video</a>
                 <a class="dropdown-item" href="manage_videos/manage_videos.php">View All Videos</a>
               </div>
             </div>

@@ -37,9 +37,6 @@ $quiz_list = $quiz->display_quiz_courses();
                         <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin User</span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in">
-                        <a class="dropdown-item" href="#">
-                            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> Profile
-                        </a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="../login.php">
                             <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
@@ -76,30 +73,6 @@ $quiz_list = $quiz->display_quiz_courses();
         <a href="../manage_videos/manage_videos.php">
           <i class="fas fa-video"></i>
           <span>Manage Videos</span>
-        </a>
-      </li>
-      <li>
-        <a href="../admin_main.php">
-          <i class="fas fa-comments"></i>
-          <span>Manage Comments</span>
-        </a>
-      </li>
-      <li>
-        <a href="../admin_main.php/#users">
-          <i class="fas fa-users"></i>
-          <span>Manage Users</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fas fa-chart-pie"></i>
-          <span>Reports</span>
-        </a>
-      </li>
-      <li>
-        <a href="../login.php">
-          <i class="fas fa-sign-out-alt"></i>
-          <span>Logout</span>
         </a>
       </li>
     </ul>

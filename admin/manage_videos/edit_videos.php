@@ -82,7 +82,7 @@
   		<div class="col-md-10 ">   <!--  main body content starts -->
         <div>
         <h3 class="text-center mt-2">Manage Your <?php  echo $_GET['course_name'];  ?> &nbsp online video tutorial</h3>
-        <button class="btn btn-primary float-right" data-toggle="modal" data-target="#myModal">add new video</button><br>
+        <button class="btn btn-primary float-right" data-toggle="modal" data-target="#myModal">Add New Video</button><br>
       </div>
         <div class="row col-md-12 ml-2 shadow">
        

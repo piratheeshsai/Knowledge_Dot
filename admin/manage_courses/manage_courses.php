@@ -62,13 +62,6 @@ $course=$courses->display_courses();    //calling display_courses() method from 
           </a>
           <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
             <a class="dropdown-item" href="#">
-              <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-              Profile
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-              Settings
-            </a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="../login.php">
               <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
@@ -79,12 +72,6 @@ $course=$courses->display_courses();    //calling display_courses() method from 
       </ul>
     </div>
   </nav>
-
-
-
-
-
-  
 
 				<!-- navigation bar ends -->
 <!-- ========================================================================================================================== -->
@@ -113,12 +100,6 @@ $course=$courses->display_courses();    //calling display_courses() method from 
         <a href="../manage_videos/manage_videos.php">
           <i class="fas fa-video"></i>
           <span>Manage Videos</span>
-        </a>
-      </li>
-      <li>
-        <a href="../login.php">
-          <i class="fas fa-sign-out-alt"></i>
-          <span>Logout</span>
         </a>
       </li>
     </ul>

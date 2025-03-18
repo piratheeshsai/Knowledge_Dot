@@ -39,8 +39,9 @@
 
 <style>
 /* Footer Styles */
+
 .footer-dark {
-    padding: 50px 0;
+    padding: 110px 0;
     color: #f0f9ff;
     background-color: #282d32;
 }
