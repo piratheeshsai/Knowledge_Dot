@@ -63,7 +63,7 @@
 
     <br><br><br>
     <div class="container">
-        <div class="row d-flex flex-row flex-nowrap" style="gap: 1rem;">
+        <div class="row d-flex flex-row flex-nowrap overflow-auto" style="gap: 1rem;">
             <?php 
                 $sql = "SELECT * FROM video_info";
                 $result = mysqli_query($con, $sql);

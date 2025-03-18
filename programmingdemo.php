@@ -20,7 +20,8 @@
 </head>
 <body>
 
-    <?php require("./Frontend_includes/frontend_navbar.php"); ?>
+<!--Including the frontend navigation bar -->
+    <?php require("./Frontend_includes/frontend_navbar.php"); ?> 
 
     <!-- Programming Languages Section Start -->
     <section class="programming-languages py-5 bg-light">
@@ -31,26 +32,18 @@
                     Explore the world of programming with our available languages. <br>
                     Start learning today and enhance your coding skills!
                 </p>
-                <div class="divider mx-auto"></div>
+                
+                <div class="divider bg-dark mt-2 mx-auto" style="width: 60px; height: 4px;">
+
+                </div>
+
             </div>
         </div>
     </section>
+  
 
-    <style>
-        /* Section Styling */
-        .programming-languages {
-            background-color: #f8f9fa;
-        }
 
-        .divider {
-            width: 60px;
-            height: 4px;
-            background-color: rgb(0, 0, 0);
-            margin-top: 10px;
-        }
-    </style>
-
-    <!-- Programming Languages -->					
+    <!-- Programming Languages Container section-->					
     <div class="container">
         <div class="row d-flex flex-row flex-nowrap overflow-auto">
             <?php
