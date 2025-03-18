@@ -32,6 +32,12 @@ else
   		header("location:admin/admin_main.php");
   		
   	}
+	elseif($res['username']=='lecture') 
+		{
+			header("location:admin/admin_main.php");
+
+	}
+
   	else
   	{
 
