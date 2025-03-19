@@ -96,8 +96,8 @@ session_start();
         </div>
     </div>
 
-    <!-- YouTube Subscribe Button -->
-    <div id="yt" class="g-ytsubscribe" data-channelid="UCxwf74gbHaiHHJ7XxZ51JyA" data-layout="full" data-count="default"></div>
+    <!-- YouTube Subscribe Button
+    <div id="yt" class="g-ytsubscribe" data-channelid="UCxwf74gbHaiHHJ7XxZ51JyA" data-layout="full" data-count="default"></div> -->
 
     <script type="text/javascript">
         var li = document.getElementsByTagName('li')[0].style = "color:red";

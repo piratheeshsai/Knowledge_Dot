@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Unique Developer</title>
+	<title>Knowlade Dot</title>
 	<!----css file link-->
 	<link rel="stylesheet" type="text/css" href="../..//css/java_programming.css">
 
